@@ -1,0 +1,30 @@
+03/08/2023 Meeting Notes -
+Task - Get this site done in 5 days and all the styling so we can get the site up and running
+Task - create the backend (server side) to login, logout, signin and signup
+Task - Figure out a link or a way to connect a blog to the site
+Task - Bench, squat tracker
+Task - Include Sponsors
+
+
+End User - 
+Being able to see teaching videos or sales videos via a link on the NavBar - Transparency is key showing as an exmaple 2 minutes of a 20 minute video and they can buy it from there if they like it. 
+User Friendlyness/User Experience - capture the attention of our services.
+Grabs them and hooks them into the website and keeps them there. Consitantly engages them - Linking different clickable links so they can go to a different page.
+Keep it to 2 or 3 sentances for discriptoins of the services we offer.
+Services Card - Hover or bring you to another page, use border radius to styling differently.
+PodCast- Center it on the page.
+Use different background colors for the sections.
+Work on a change request form. 
+Create a Netlify site so that Blank and others can look at thie site and provide feedback.
+About us - section on what the company actaully is. Add the team section to it also. 
+
+App - Talk to the other team on where we want to have it. Weather that is google play store or apple store or both.
+
+
+Julie R Hoye - left a message
+
+Judith A Woods - works at the same place as Julie left a message for both just the basic line not a personal message
+
+Michelle C Monerson - Left a message for her also.  She doesn't take new clients, client goes through a evaluation it takes about 2 hours, then they do a referal for other services. Booking out is May 1st. 2 to 3 month outpaient therapy
+
+Waiting on calls back I will update when they call back. Let me know if you want to see a screenshot that I called!!!!
