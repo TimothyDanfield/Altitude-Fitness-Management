@@ -26,7 +26,7 @@ const Marketing = () => {
 
           <div className="main__img--card_2"> 
 
-            <img src="/pictures/AdobeStock_80447539.jpeg" /> 
+            <img src="/pictures/AdobeStock_80447539.jpeg" alt='test' /> 
 
           </div> 
 
