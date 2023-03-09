@@ -2,7 +2,7 @@ import React from "react";
 
 const Podcast = () => {
   return (
-    <div className="main reveal">
+    <div className="mainPod reveal">
       <h1 className="podcast">Podcast</h1>
       <div className="main__container_3">
         <div className="main__content_3">
@@ -18,14 +18,12 @@ const Podcast = () => {
           </p> 
 
           <button className="main__btn"> 
-
             <a href="https://www.fitmolife.com/">See More</a> 
-
           </button> 
 
         </div> 
 
-        <div className="main__img--container"> 
+        <div className="main__img--container_3"> 
 
           <div className="main__img--card_3" id="card-2"> 
 

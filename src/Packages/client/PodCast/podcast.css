@@ -1,0 +1,134 @@
+.mainPod {
+   background-color: white;
+ }
+
+
+ .podcast {
+   padding-left: 10px;
+   padding-top: 80px;
+   text-align: center;
+   background-color:#1f003b;
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   font-size: 2.5rem;
+   font-family: 'Albert Sans', sans-serif; 
+   font-weight: bold;
+ }
+ 
+ 
+ .podcast::after {
+   content: '';
+   background-color: rgb(31, 0, 59);
+   display: block;
+   height: 1.5px;
+   width: 150px;
+   margin: 2.5px auto 5px;
+ }
+
+ .main__container_3 {
+   display: grid;
+   grid-template-columns: 1fr 1fr;
+   align-items: center;
+   justify-content: center;
+   height: 90%;
+   z-index: 1;
+   width: 100%;
+   max-width: 1500px;
+   padding-left: 78px;
+   padding-top: 90px;
+   padding-bottom: 150px;
+ }
+
+ .main__content_3 {
+   color: black;
+   width: 100%;
+ }
+
+ .main__content_3 h1 {
+   font-size: 40px;
+   line-height: 1.5;
+   background: #ee0979;
+   background: -webkit-linear-gradient(to right, #ff8177, #fd1d1d);
+   background: linear-gradient(to right, #ff8177, #fd1d1d);
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   text-transform: uppercase;
+   margin-bottom: 32px;
+   font-family: 'Albert Sans', sans-serif; 
+   font-weight: bold;
+ }
+
+ .main__content_3 h2 {
+   font-size: 20px
+   background: #ff8177; 
+   background: -webkit-linear-gradient(
+     to right,
+     #9114ff,
+     #da22ff
+   ); 
+   background: linear-gradient(
+     to right,
+     #8f0eff,
+     #da22ff
+   ); 
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+ }
+
+ .main__content_3 p {
+   margin-top: 1rem;
+   font-size: 18px;
+   line-height: 1.8;
+   background: #000000;
+   background-size: 100%;
+   -webkit-background-clip: text;
+   -moz-background-clip: text;
+   -webkit-text-fill-color: transparent;
+   -moz-text-fill-color: transparent;
+   font-family: 'Glacial Indifference', sans-serif;
+ }
+
+ .main__img--container_3 {
+   width: 596px;
+   height: 361px;
+ }
+
+ .main__img--container_3 {
+   width: 596px;
+   height: 361px;
+ }
+
+ .main__img--card_3 {
+   padding-right: 50px;
+   margin: 0px;
+   height: 700px;
+   width: 700px;
+   border-radius: 4px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+ }
+
+ #card-2 iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 600px;
+   height: 337.50px;
+ }
+
+ #card-2 iframe {
+   position: absolute;
+   top: 0;
+   left: 0;
+   width: 600px;
+   height: 337.50px;
+ }

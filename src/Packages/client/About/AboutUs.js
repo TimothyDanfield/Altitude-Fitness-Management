@@ -6,7 +6,7 @@ const AboutUs = () => {
       <div className="main__container_1">
         <div className="main__img--container">
           <div className="main__img--card_1">
-            <img src="/pictures/wallpaperflare.com_wallpaper.jpg" />
+            {/* <img src="/pictures/wallpaperflare.com_wallpaper.jpg" /> */}
           </div>
         </div>
         <div className="main__content_1">
@@ -43,7 +43,7 @@ const AboutUs = () => {
 
           <div className="main__img--card_2"> 
 
-            <img src="/pictures/AdobeStock_80447539.jpeg" /> 
+            {/* <img src="/pictures/AdobeStock_80447539.jpeg" />  */}
 
           </div> 
 </div>

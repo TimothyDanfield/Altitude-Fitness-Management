@@ -2,11 +2,11 @@ import React from "react";
 import './businessconsultation.css'
 const BusinessConsultation = () => {
   return (
-    <div className="main reveal" id="about">
+    <div className="mainBsns reveal" id="about">
       <div className="main__container_1">
-        <div className="main__img--container">
+        <div className="main__img--container_1">
           <div className="main__img--card_1">
-            <img src="/pictures/wallpaperflare.com_wallpaper.jpg" />
+            {/* <img src="public/Pictures/wallpaperflare.com_wallpaper.jpg"></img> */}
           </div>
         </div>
         <div className="main__content_1">
