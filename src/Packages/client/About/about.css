@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 .mainBsns {
   background-color: #fefefe;
 }
@@ -22,12 +23,17 @@
 
 .main__container_1 {
   display: grid;
+=======
+ .main__container_1 {
+    display: grid;
+>>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
     grid-template-columns: 1fr 1fr;
     align-items: center;
     justify-content: center;
     height: 90%;
     z-index: 1;
     width: 100%;
+<<<<<<< HEAD
     padding-top: 60px;
     background: #F0F5F9;
     padding-bottom: 95px;
@@ -241,3 +247,47 @@
   justify-content: center;
   filter: blur(0.5px);
 }
+=======
+    padding-top: 120px;
+  }
+  
+  
+   .main__img--card_1aboutus {
+    padding-left: 0px;
+    margin-left: 100px;
+    width: 596px;
+    height: 361px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  } 
+   
+   .main__btn {
+    font-size: 1.8rem;
+    background: #833ab4;
+    background: -webkit-linear-gradient(to right, #fcb045, #fd1d1d);
+    background: linear-gradient(to right, #ff8177, #fd1d1d);
+    padding: 20px 60px;
+    border: none;
+    border-radius: 4px;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+  }
+  .main__content_1 {
+    
+    width: 100%;
+    padding-right: 107px;
+    padding-left: 96px;
+  }  
+
+ 
+  .main__img--card_2aboutus {
+    padding-right: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem !important;
+  }
+>>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c

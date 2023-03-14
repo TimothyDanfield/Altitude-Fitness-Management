@@ -18,8 +18,14 @@ const App = () => {
     <div>
     <NavBar />
      <Routes>
+<<<<<<< HEAD
       <Route exact path='/home' element={<Home />}/>
       <Route exact path='/about' element={<AboutUs />}/>
+=======
+      <Route exact path='/' element={<Home />}/>
+      <Route exact path='/home' element={<Home />}/>
+      <Route exact path='/aboutus' element={<AboutUs />}/>
+>>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
       <Route exact path='/podcast' element={<PodCast />}/>
       <Route exact path='/businessconsultation' element={<BusinessConsultation />}/>
       <Route exact path='/services' element={<Services />}/>

@@ -2,11 +2,25 @@ import React from "react";
 import './team.css'
 const OurTeam = () => {
   return (
+<<<<<<< HEAD
     <section >
       <div className="row_1">
+=======
+    
+    <div className="row">
+    <section>
+    
+      <div className="row">
+>>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
         <h1>Our Team</h1>
       </div>
       <div className="row_2">
+        <div className="column">
+          <div className="card">
+            <div className="img-container">
+              <img src="/Pictures/3.avif" />
+            </div>
+      <div className="row">
         <div className="column">
           <div className="card">
             <div className="img-container">
@@ -16,6 +30,7 @@ const OurTeam = () => {
             <h3>Pedro De Freitas Cedeno</h3>
             <p>Founder and CEO</p>
             <div className="icons">
+<<<<<<< HEAD
               {/* // need to import React icons */}
               {/* <a href="">
                 <i className="fab fa-twitter"></i>
@@ -41,6 +56,9 @@ const OurTeam = () => {
             <p>Web Developer</p>
             <div className="icons">
               {/* <a href="#">
+=======
+              <a href="#">
+>>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
                 <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
@@ -51,36 +69,74 @@ const OurTeam = () => {
               </a>
               <a href="#">
                 <i className="fas fa-envelope"></i>
-              </a> */}
-            </div>
+              </a>
+              <a href="">
+                <i className="fas fa-envelope"></i> 
+              </a>
+              <a href="">
+                <i className="fas fa-envelope"></i> 
+              </a>
+            
           </div>
         </div>
         <div className="column">
           <div className="card">
             <div className="img-container">
-              {/* <img src="/New site Altitude - Copy/pictures/2.webp" /> */}
+              {/* <img src="/Pictures/1.avif" /> */}
             </div>
-            <h3>Matthew Wakumoto</h3>
-            <p>Social Media Manager</p>
+            <h3>Marko Jakovljevic</h3>
+            <p>Web Developer</p>
             <div className="icons">
-              {/* <a href="#">
+              <a href="#">
                 <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
                 <i className="fab fa-linkedin"></i>
               </a>
               <a href="#">
-                <i class="fab fa-github"></i>
+                <i className="fab fa-github"></i>
               </a>
               <a href="#">
-                <i className="fas fa-envelope"></i> */}
-              {/* </a> */}
+                <i className="fas fa-envelope"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        <div className="column">
+          <div className="card">
+            <div className="img-container">
+              {/* <img src="/Pictures/2.webp" /> */}
+            </div>
+            <h3>Matthew Wakumoto</h3>
+            <p>Social Media Manager</p>
+            <div className="icons">
+              <a href="#">
+                <i className="fab fa-twitter"></i>
+              </a>
+              <a href="#">
+                <i className="fab fa-linkedin"></i>
+              </a>
+              <a href="#">
+                <i className="fab fa-github"></i>
+              </a>
+              <a href="#">
+                <i className="fas fa-envelope"></i>
+              </a>
+            </div>
             </div>
           </div>
         </div>
       
       </div>
+</div>
+      </div>
+      <div>
+   </div>
+    </div>
+    
     </section>
+    </div>
+    
   );
 };
 
