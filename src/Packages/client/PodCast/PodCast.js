@@ -19,12 +19,7 @@ const PodCast = () => {
         </div> 
         <div className="main__img--container_3"> 
           <div className="main__img--card_3" id="card-2"> 
-<<<<<<< HEAD
             <iframe src="https://www.youtube.com/embed/Kl-KAxy1WTU?autoplay=1&rel=0&fs=0&controls=0&disablekb=1&mute=1" width="560" height="315" title="A YouTube video" frameborder="0"></iframe> 
-=======
-
-            <iframe src="https://www.youtube.com/embed/Kl-KAxy1WTU?autoplay=1&rel=0&fs=0&controls=0&disablekb=1&mute=1" width="560" height="315" title="A YouTube video" frameBorder="0"></iframe> 
->>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
 
           </div>  
 

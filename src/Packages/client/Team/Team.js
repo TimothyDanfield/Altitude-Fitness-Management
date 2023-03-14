@@ -2,23 +2,16 @@ import React from "react";
 import './team.css'
 const OurTeam = () => {
   return (
-<<<<<<< HEAD
-    <section >
-      <div className="row_1">
-=======
     
-    <div className="row">
-    <section>
-    
-      <div className="row">
->>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
+        <section >
+    <div className="row_1">
         <h1>Our Team</h1>
       </div>
       <div className="row_2">
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/3.avif" />
+              <img src="/Pictures/3.avif" alt="3.avif" />
             </div>
       <div className="row">
         <div className="column">
@@ -30,7 +23,6 @@ const OurTeam = () => {
             <h3>Pedro De Freitas Cedeno</h3>
             <p>Founder and CEO</p>
             <div className="icons">
-<<<<<<< HEAD
               {/* // need to import React icons */}
               {/* <a href="">
                 <i className="fab fa-twitter"></i>
@@ -56,9 +48,6 @@ const OurTeam = () => {
             <p>Web Developer</p>
             <div className="icons">
               {/* <a href="#">
-=======
-              <a href="#">
->>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
                 <i className="fab fa-twitter"></i>
               </a>
               <a href="#">
@@ -132,10 +121,11 @@ const OurTeam = () => {
       </div>
       <div>
    </div>
-    </div>
     
+   
     </section>
-    </div>
+    
+    
     
   );
 };
