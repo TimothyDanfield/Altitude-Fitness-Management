@@ -19,7 +19,6 @@ const Marketing = () => {
           <button className="main__btn"> 
             <a href="https://www.fitmolife.com/">See More</a> 
           </button> 
-
         </div>
 
         <div className="main__img--container_2"> 

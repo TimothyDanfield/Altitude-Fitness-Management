@@ -3,15 +3,16 @@ import './team.css'
 const OurTeam = () => {
   return (
     <section >
-      <div className="row">
+      <div className="row_1">
         <h1>Our Team</h1>
       </div>
-      <div className="row">
+      <div className="row_2">
         <div className="column">
           <div className="card">
             <div className="img-container">
               {/* <img src="public/PicturesC:/Users/WIN10/Desktop/Altitude-Fitness-Management/public/Pictures/1.avifC:/Users/WIN10/Desktop/Altitude-Fitness-Management/public/Pictures/2.webpC:/Users/WIN10/Desktop/Altitude-Fitness-Management/public/Pictures/3.avif" />
             </div> */}
+            </div>
             <h3>Pedro De Freitas Cedeno</h3>
             <p>Founder and CEO</p>
             <div className="icons">
@@ -29,7 +30,7 @@ const OurTeam = () => {
                 <i className="fas fa-envelope"></i> */}
               {/* </a> */}
             </div>
-          </div>
+        </div>
         </div>
         <div className="column">
           <div className="card">
@@ -77,7 +78,7 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-      </div>
+      
       </div>
     </section>
   );

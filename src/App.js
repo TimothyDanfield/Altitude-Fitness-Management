@@ -18,12 +18,12 @@ const App = () => {
     <div>
     <NavBar />
      <Routes>
-      <Route exact path='home' element={<Home />}/>
-      <Route exact path='about' element={<AboutUs />}/>
-      <Route exact path='podcast' element={<PodCast />}/>
-      <Route exact path='businessconsultation' element={<BusinessConsultation />}/>
-      <Route exact path='services' element={<Services />}/>
-      <Route exact path='ourteam' element={<Team />}/>
+      <Route exact path='/home' element={<Home />}/>
+      <Route exact path='/about' element={<AboutUs />}/>
+      <Route exact path='/podcast' element={<PodCast />}/>
+      <Route exact path='/businessconsultation' element={<BusinessConsultation />}/>
+      <Route exact path='/services' element={<Services />}/>
+      <Route exact path='/ourteam' element={<Team />}/>
      </Routes>
     </div>
   )
