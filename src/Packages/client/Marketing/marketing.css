@@ -23,8 +23,8 @@
    background: -webkit-linear-gradient(to right, #ff8177, #fd1d1d);
    background: linear-gradient(to right, #ff8177, #fd1d1d);
    background-size: 100%;
-   -webkit-background-clip: text;
-   -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+   -moz-background-clip: text; */
    -webkit-text-fill-color: transparent;
    -moz-text-fill-color: transparent;
    text-transform: uppercase;
@@ -33,10 +33,19 @@
    font-weight: bold;
  }
 
+ .mainMark {
+  background-color: white;
+}
+
  .main__content_2 h2 {
    font-size: 20px;
    color: #000000;
  }
+
+ .main__img--container_2 {
+  width: 596px;
+  height: 361px;
+}
 
  .main__content_2 p {
    margin-top: 1rem;
@@ -44,8 +53,8 @@
    line-height: 1.8;
    background: #000000;
    background-size: 100%;
-   -webkit-background-clip: text;
-   -moz-background-clip: text;
+   /* -webkit-background-clip: text;
+   -moz-background-clip: text; */
    -webkit-text-fill-color: transparent;
    -moz-text-fill-color: transparent;
    font-family: 'Glacial Indifference', sans-serif;

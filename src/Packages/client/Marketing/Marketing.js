@@ -2,7 +2,7 @@ import React from 'react';
 import './marketing.css'
 const Marketing = () => {
   return (
-    <div className="main reveal" id="sign-up">
+    <div className="mainMark reveal" id="sign-up">
       <div className="main__container_2">
         <div className="main__content_2">
           <h1>Business Marketing Strategies</h1>
@@ -22,7 +22,7 @@ const Marketing = () => {
 
         </div>
 
-        <div className="main__img--container"> 
+        <div className="main__img--container_2"> 
 
           <div className="main__img--card_2"> 
 

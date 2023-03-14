@@ -1,4 +1,4 @@
-/* .main__container_1 {
+ .main__container_1 {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
@@ -10,7 +10,7 @@
   }
   
   
-  .main__img--card_1 {
+   .main__img--card_1aboutus {
     padding-left: 0px;
     margin-left: 100px;
     width: 596px;
@@ -19,8 +19,8 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-  }
-   */
+  } 
+   
    .main__btn {
     font-size: 1.8rem;
     background: #833ab4;
@@ -36,11 +36,15 @@
     outline: none;
   }
   .main__content_1 {
-    color: black;
+    
     width: 100%;
     padding-right: 107px;
     padding-left: 96px;
   }  
 
  
-  
+  .main__img--card_2aboutus {
+    padding-right: 1rem;
+    border-top-left-radius: 0.5rem;
+    border-top-right-radius: 0.5rem !important;
+  }

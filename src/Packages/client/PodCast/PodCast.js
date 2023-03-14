@@ -1,8 +1,8 @@
 import React from "react";
 
-const Podcast = () => {
+const PodCast = () => {
   return (
-    <div className="main reveal">
+    <div className="mainPod reveal">
       <h1 className="podcast">Podcast</h1>
       <div className="main__container_3">
         <div className="main__content_3">
@@ -18,18 +18,16 @@ const Podcast = () => {
           </p> 
 
           <button className="main__btn"> 
-
             <a href="https://www.fitmolife.com/">See More</a> 
-
           </button> 
 
         </div> 
 
-        <div className="main__img--container"> 
+        <div className="main__img--container_3"> 
 
           <div className="main__img--card_3" id="card-2"> 
 
-            <iframe src="https://www.youtube.com/embed/Kl-KAxy1WTU?autoplay=1&rel=0&fs=0&controls=0&disablekb=1&mute=1" width="560" height="315" title="A YouTube video" frameborder="0"></iframe> 
+            <iframe src="https://www.youtube.com/embed/Kl-KAxy1WTU?autoplay=1&rel=0&fs=0&controls=0&disablekb=1&mute=1" width="560" height="315" title="A YouTube video" frameBorder="0"></iframe> 
 
           </div>  
 
@@ -41,4 +39,4 @@ const Podcast = () => {
 
   );  
 };  
-export default Podcast;
+export default PodCast;
