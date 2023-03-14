@@ -3,8 +3,8 @@ import './team.css'
 const OurTeam = () => {
   return (
     
+    <div className="row">
     <section>
-      <div className="row">
     
       <div className="row">
         <h1>Our Team</h1>
@@ -40,15 +40,15 @@ const OurTeam = () => {
                 <i className="fas fa-envelope"></i> 
               </a>
               <a href="">
-                <i className="fas fa-envelope"></i> */}
-              {/* </a> */}
-            </div>
+                <i className="fas fa-envelope"></i> 
+              </a>
+            
           </div>
         </div>
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/1.avif" />
+              {/* <img src="/Pictures/1.avif" /> */}
             </div>
             <h3>Marko Jakovljevic</h3>
             <p>Web Developer</p>
@@ -71,7 +71,7 @@ const OurTeam = () => {
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/2.webp" />
+              {/* <img src="/Pictures/2.webp" /> */}
             </div>
             <h3>Matthew Wakumoto</h3>
             <p>Social Media Manager</p>
@@ -94,11 +94,15 @@ const OurTeam = () => {
         </div>
       </div>
       </div>
+</div>
       </div>
-    </div>
+      <div>
+   </div>
     </div>
     
     </section>
+    </div>
+    
   );
 };
 
