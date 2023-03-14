@@ -39,6 +39,9 @@ const OurTeam = () => {
               <a href="">
                 <i className="fas fa-envelope"></i> 
               </a>
+              <a href="">
+                <i className="fas fa-envelope"></i> */}
+              {/* </a> */}
             </div>
           </div>
         </div>
