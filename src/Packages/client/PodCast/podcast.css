@@ -8,7 +8,7 @@
   background-color: #fefefe;
   font-size: 2.5rem;
   font-family: 'Albert Sans', sans-serif;
-  font-weight: bold;
+  font-weight: 1px;
 }
 
 .podcast::after {
@@ -17,7 +17,7 @@
   display: block;
   height: 1px;
   width: 67px;
-  margin: 1.3px 42.4rem 0px;
+  margin: 1.3px 43rem 0px;
 }
 
 .main__container_3 {
@@ -29,7 +29,8 @@
   z-index: 1;
   width: 100%;
   padding-left: 100px;
-  background: #fefefe
+  background: #fefefe;
+  padding-top: 60px;
 }
 
 .main__content_3 {
@@ -117,10 +118,13 @@
 .main__img--card_3 {
   padding-right: 50px;
   margin: 0px;
-  height: 700px;
+  height: 330px;
   width: 700px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
+}
+#services {
+  padding: 120px 0;
 }

@@ -1,7 +1,7 @@
 .container {
    display: flex;
    justify-content: space-between;
-   height: 160px;
+   height: 100px;
    z-index: 1;
    width: 100%;
    max-width: 1300px;
@@ -129,7 +129,6 @@
  }
  
  .navbar__item {
-   width: 100%;
  }
  
  .navbar__links {

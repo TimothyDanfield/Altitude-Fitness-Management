@@ -1,8 +1,7 @@
 .row_1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 2em 2.2em;
-  padding-top: 4rem !important;
+  padding: 60px 2.2em;
   text-align: center;
 }
 

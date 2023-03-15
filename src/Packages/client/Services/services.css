@@ -14,7 +14,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  margin-bottom: 3rem;
+  margin-bottom: 1.5rem;
   font-size: 3rem;
   font-family: 'Albert Sans', sans-serif; 
   font-weight: bold;
@@ -220,7 +220,7 @@
   }
 }
 #services {
-  padding: 60px;
+  padding: 60px 0 !important;
 }
 .services-list {
   display: grid;

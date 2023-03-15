@@ -16,7 +16,7 @@ const Marketing = () => {
             personal selling. 
           </p>
 
-          <button className="main__btn"> 
+          <button className="main__btn_2"> 
             <a href="https://www.fitmolife.com/">See More</a> 
           </button> 
         </div>
@@ -25,7 +25,7 @@ const Marketing = () => {
 
           <div className="main__img--card_2"> 
 
-            <img src="/pictures/AdobeStock_80447539.jpeg" alt='test' /> 
+            <img src="/Pictures/AdobeStock_80447539 (1).jpeg" alt='test' /> 
 
           </div> 
 

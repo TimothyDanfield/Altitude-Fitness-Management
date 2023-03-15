@@ -4,7 +4,7 @@ const Home = () => {
   return (
     <div class="wrapper">
       <div class="cols cols0">
-      <video className='video' autoPlay loop muted src="public/Pictures/Gym Example Compressed mp4.mp4"></video>
+      <video style= {{width:"100%", height: "100%"}}  className='video' autoPlay loop muted  src="/Pictures/Gym Example Compressed mp4.mp4"></video>
     <h1 class="text">
     <span className='multiText'>ALTITUDE</span>
     </h1>
