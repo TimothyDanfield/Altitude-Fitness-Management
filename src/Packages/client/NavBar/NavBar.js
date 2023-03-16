@@ -1,14 +1,15 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
+
 import './navbar.css'
 const NavBar = () => {
   return (
 
     <div>
-      {/* <img
-        className="logo"
-        src="public/Pictures/MicrosoftTeams-image(3).png"
-      ></img> */}
+            {/* <img
+              className="logo"
+              src="/public/Pictures/Altitude Fitness Management SD1 Logo.png"
+            ></img> */}
       <div className="container">
       {/* <nav class="navbar">
       <div class="navbar__container">
@@ -20,6 +21,7 @@ const NavBar = () => {
         </Link>
         <Link to="/services" className="navbar__item">
           Services
+ 
         </Link>
         <Link to="/podcast" className="navbar__item">
           Podcast

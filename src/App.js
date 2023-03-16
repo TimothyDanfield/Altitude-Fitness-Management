@@ -9,6 +9,7 @@ import Services from './Packages/client/Services/Services'
 import PodCast from './Packages/client/PodCast/PodCast'
 import Team from './Packages/client/Team/Team'
 import Marketing from './Packages/client/Marketing/Marketing'
+import Footer from './Packages/client/Footer/Footer'
 
 const App = () => {
 
@@ -19,6 +20,7 @@ const App = () => {
     <div>
     <NavBar />
      <Routes>
+      <Route exact path='/' element={<Home />}/>
       <Route exact path='/home' element={<Home />}/>
       <Route exact path='/about' element={<AboutUs />}/>
       <Route exact path='/podcast' element={<PodCast />}/>
@@ -27,6 +29,7 @@ const App = () => {
       <Route exact path='/services' element={<Services />}/>
       <Route exact path='/ourteam' element={<Team />}/>
      </Routes>
+     <Footer />
     </div>
   )
 }
