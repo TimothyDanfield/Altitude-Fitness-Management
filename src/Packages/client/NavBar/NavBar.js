@@ -5,12 +5,12 @@ import './navbar.css'
 const NavBar = () => {
   return (
 
-    <div>
-            {/* <img
+    <div className='container'>
+            <img
               className="logo"
               src="/public/Pictures/Altitude Fitness Management SD1 Logo.png"
-            ></img> */}
-      <div className="container">
+            ></img>
+      <div className='container'>
       {/* <nav class="navbar">
       <div class="navbar__container">
       <ul class="navbar__menu"> */}
