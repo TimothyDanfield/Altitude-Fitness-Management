@@ -11,7 +11,7 @@
   z-index: 1;
   width: 100%;
   padding-left: 95px;
-  padding-top: 120px;
+  padding-top: 60px;
 }
 
 .main__content_2 {
@@ -102,10 +102,6 @@
   height: 361px;
 }
 
-.main__img--container_2{
-  width: 596px;
-  height: 361px;
-}
 
 .main__img--card_2 img {
   padding-left: 1rem;
@@ -123,6 +119,23 @@
   justify-content: center;
   filter: blur(0.5px);
 }
-.main__btn {
-  
+
+.marketing {
+  padding-left: 10px;
+  padding-top: 60px;
+  text-align: center;
+  background-color:#F0F5F9;
+  font-size: 2.5rem;
+  font-family: 'Albert Sans', sans-serif;
+  font-weight: bold;
+  background-color: #fefefe;
+}
+
+.marketing::after {
+  content: '';
+  background-color: rgb(31, 0, 59);
+  display: block;
+  height: 1px;
+  width: 72px;
+  margin: 0.3px 41.4rem 0px;
 }
