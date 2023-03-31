@@ -14,7 +14,7 @@ const PodCast = () => {
             transformative approach to lifestyle change. 
           </p> 
           <button className="main__btn_3"> 
-            <a href="https://www.fitmolife.com/">See More</a> 
+          <a href="https://www.fitmolife.com/" target="_blank">See More</a> 
           </button> 
         </div> 
         <div className="main__img--container_3"> 

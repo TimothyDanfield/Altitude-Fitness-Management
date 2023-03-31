@@ -1,46 +1,54 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
+import './navbar1.css';
 
-import './navbar.css'
-const NavBar = () => {
+
+function NavBar() {
+  const [showServicesDropDown, setShowServicesDropDown] = useState(false);
+  
+  const [showOurDriveDropDown, setShowOurDriveDropDown] = useState(false);
+  
+
+  const toggleServicesDropDown = () => {
+    setShowServicesDropDown(!showServicesDropDown);
+  };
+
+  
+  const toggleOurDriveDropDown = () => {
+    setShowOurDriveDropDown(!showOurDriveDropDown);
+  };
+
   return (
-
-    <div className='container'>
-            <img
-              className="logo"
-              src="/public/Pictures/Altitude Fitness Management SD1 Logo.png"
-            ></img>
-      <div className='container'>
-      {/* <nav class="navbar">
-      <div class="navbar__container">
-      <ul class="navbar__menu"> */}
-        <Link to="/" className="navbar__item">
-        </Link>
-        <Link to="/home" className="navbar__item">
-          Home
-        </Link>
-        <Link to="/services" className="navbar__item">
-          Services
- 
-        </Link>
-        <Link to="/podcast" className="navbar__item">
-          Podcast
-        </Link>
-        <Link to="/businessconsultation" className="navbar__item">
-          Business Consultation
-        </Link>
-        <Link to="/marketing" className="navbar__item">
-          Marketing
-        </Link>
-        <Link to="/ourteam" className="navbar__item">
-          Our Team
-        </Link>
-        {/* </ul>
-        </div>
-        </nav> */}
+    <nav className="navbar">
+    <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
+      <Link to="/" className="navbar__item">HOME</Link>
+      <Link to='/services' className="navbar__item" onMouseEnter={toggleServicesDropDown} onMouseLeave={toggleServicesDropDown}>
+        SERVICES
+        {showServicesDropDown && (
+          <div className="navbar__dropdown">
+            <Link to="/gymgrowth" className="navbar__dropdown-item">Gym Growth</Link>
+            <Link to="/service2" className="navbar__dropdown-item">Automation</Link>
+            <Link to="/service3" className="navbar__dropdown-item">Employee</Link>
+            <Link to="/service3" className="navbar__dropdown-item">Gym Launch</Link>
+          </div>
+        )}
+      </Link>
+      <div className="navbar__item" onMouseEnter={toggleOurDriveDropDown} onMouseLeave={toggleOurDriveDropDown}>
+        Our Drive
+        {showServicesDropDown && (
+          <div className="navbar__dropdown">
+            <Link to="/team" className="navbar__dropdown-item">Partners</Link>
+           
+          </div>
+        )}
       </div>
-    </div>
+      
+      <Link to="/businessconsultation" className="navbar__item">CONSULTATION</Link>
+      <Link to="/podcast" className="navbar__item">FITMOLIFE</Link>
+      <Link to="/affiliations" className="navbar__item">Affiliations</Link>
+      
+    </nav>
   );
-};
+}
 
 export default NavBar;

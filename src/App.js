@@ -10,6 +10,10 @@ import PodCast from './Packages/client/PodCast/PodCast'
 import Team from './Packages/client/Team/Team'
 import Marketing from './Packages/client/Marketing/Marketing'
 import Footer from './Packages/client/Footer/Footer'
+import Affiliations from './Packages/client/Affiliations/Affiliations'
+import GymGrowth from './Packages/client/Services/gymGrowth'
+import GetStarted from './Packages/client/Affiliations/GetStarted'
+
 
 const App = () => {
 
@@ -27,7 +31,12 @@ const App = () => {
       <Route exact path='/businessconsultation' element={<BusinessConsultation />}/>
       <Route exact path='/marketing' element={<Marketing />}/>
       <Route exact path='/services' element={<Services />}/>
+      <Route exact path='/gymgrowth' element={<GymGrowth />}/>
       <Route exact path='/ourteam' element={<Team />}/>
+      <Route exact path='/affiliations' element={<Affiliations />}/>
+      <Route exact path='/getstarted' element={<GetStarted />}/>
+      
+
      </Routes>
      <Footer />
     </div>

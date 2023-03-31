@@ -61,12 +61,10 @@
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.3);
 }
 
-<<<<<<< HEAD
 .services__card:nth-child(3) {
   background-color: #111111;
   box-shadow: 0.1px 0.1px 3em rgba(0, 0, 0, 0.3);
 }
-=======
  .services__card {
    position: relative;
    margin: 10px;
@@ -77,7 +75,7 @@
    flex-direction: column;
    justify-content: center;
    color: #fff;
-   background-color: black;
+   background-image: linear-gradient(to right, #ff0844 0%, #f7673c 100%);
    transition: 0.3s ease-in;
    align-items: center;
  }
@@ -155,7 +153,6 @@
      grid-template-columns: 1fr;
    }
  }
->>>>>>> 89b4981deaed337ca75c68ca73e649720db64e2c
 
 .services__card h2 {
   position: absolute;

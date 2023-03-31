@@ -3,6 +3,7 @@ import './marketing.css'
 const Marketing = () => {
   return (
     <div className="mainMark reveal" id="sign-up">
+      <h1 class="marketing">Marketing</h1>
       <div className="main__container_2">
         <div className="main__content_2">
           <h1>Business Marketing Strategies</h1>
