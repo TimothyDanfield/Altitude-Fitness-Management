@@ -27,9 +27,9 @@ function NavBar() {
         {showServicesDropDown && (
           <div className="navbar__dropdown">
             <Link to="/gymgrowth" className="navbar__dropdown-item">Gym Growth</Link>
-            <Link to="/service2" className="navbar__dropdown-item">Automation</Link>
-            <Link to="/service3" className="navbar__dropdown-item">Employee</Link>
-            <Link to="/service3" className="navbar__dropdown-item">Gym Launch</Link>
+            <Link to="/automation" className="navbar__dropdown-item">Automation</Link>
+            <Link to="/employee" className="navbar__dropdown-item">Employee</Link>
+            <Link to="/gymlaunch" className="navbar__dropdown-item">Gym Launch</Link>
           </div>
         )}
       </Link>

@@ -2,8 +2,8 @@ import React from "react";
 import './businessconsultation.css'
 const BusinessConsultation = () => {
   return (
-    <div className="mainBsns reveal" id="about">
-      <h1 class="aboutUs">About us</h1>
+    <div className="mainBsns reveal" id="consulting">
+      <h1 class="consulting">Consulting</h1>
       <div className="main__container_1">
         <div className="main__img--container_1">
           <div className="main__img--card_1">
