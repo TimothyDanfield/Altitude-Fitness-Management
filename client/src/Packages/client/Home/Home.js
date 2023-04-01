@@ -1,4 +1,5 @@
 import React from "react";
+import Services from "/client/src/Packages/client/Services/Services";
 import "./home.css";
 
 const Home = () => {
@@ -18,7 +19,7 @@ const Home = () => {
               type="video/mp4"
             />
           </video>
-          
+          <Services />
         </div>
       </div>
     </div>

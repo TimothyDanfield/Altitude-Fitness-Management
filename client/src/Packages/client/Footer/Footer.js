@@ -42,7 +42,7 @@ const Footer = () => {
             <a href="https://altitude-media-group.breezy.hr/" target="_blank">Location</a>
             <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank">Privacy policy</a>
             </div>
-        terms.code-snippets
+        
         <div className="footer__link--items">
             <h2>Contact Us</h2>
             <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Contact</a>
