@@ -3,6 +3,7 @@ import Services from "../Services/Services";
 import PodCast from "../PodCast/PodCast";
 import BusinessConsultation from '../BusinessConsultation/BusinessConsultation'
 import Affiliations from '../Affiliations/Affiliations'
+import Blog from '../Blog/Blog'
 import "./home.css";
 import Team from '../Team/Team'
 
@@ -59,6 +60,7 @@ const Home = () => {
         <Team />
         <Affiliations />
       </div>
+      <Blog />
     </div>
   );
 };
