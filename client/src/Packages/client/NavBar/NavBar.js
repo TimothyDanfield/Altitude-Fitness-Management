@@ -35,9 +35,9 @@ function NavBar() {
       </Link>
       <div className="navbar__item" onMouseEnter={toggleOurDriveDropDown} onMouseLeave={toggleOurDriveDropDown}>
         Our Drive
-        {showServicesDropDown && (
+        {showOurDriveDropDown && (
           <div className="navbar__dropdown">
-            <Link to="/team" className="navbar__dropdown-item">Partners</Link>
+            <Link to="/allteam" className="navbar__dropdown-item">Partners</Link>
            
           </div>
         )}

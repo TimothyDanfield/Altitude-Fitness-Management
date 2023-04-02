@@ -3,7 +3,7 @@ import './businessconsultation.css'
 const BusinessConsultation = () => {
   return (
     <div className="mainBsns reveal" id="consulting">
-      <h1 class="consulting">Consulting</h1>
+      <h1 class="consulting"><span style={{borderBottom: '1px solid black'}}>Con</span><span>sulting</span></h1>
       <div className="main__container_1">
         <div className="main__img--container_1">
           <div className="main__img--card_1">
