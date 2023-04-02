@@ -6,7 +6,7 @@ const Affiliations = () => {
   return (
     <section className="affiliations">
   <div className="row_1">
-    <h1>Industry Affiliations and Vendors</h1>
+    <h1 ><span style={{borderBottom: '1px solid black', fontSize: '3rem'}}>Ind</span><span style={{fontSize: '3rem'}}>ustry Affiliations and Vendors</span></h1>
   </div>
   <ul className="aff">
     <li>

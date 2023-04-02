@@ -11,14 +11,7 @@
   font-weight: 1px;
 }
 
-.podcast::after {
-  content: '';
-  background-color: rgb(31, 0, 59);
-  display: block;
-  height: 1px;
-  width: 71px;
-  margin: 0.3px 54.9rem 0px;
-}
+
 
 .main__container_3 {
   display: grid;
@@ -127,4 +120,17 @@
 }
 #services {
   padding: 120px 0;
+}
+
+h1 {
+  width: 100%;
+  text-align: center;
+  font-size: 3em;
+  background-color: rgb(31, 0, 59);
+  -webkit-background-clip: text;
+  -moz-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  -moz-text-fill-color: transparent;
+  font-family: 'Albert Sans', sans-serif; 
+  font-weight: bold;
 }

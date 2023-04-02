@@ -7,8 +7,8 @@ function GymGrowth() {
       <div className="gymImg">
         <img src="/Pictures/gym.photo.png" alt="" />
       </div>
-
-      <h1 className="heading">GYM GROWTH MANAGEMENT</h1>
+      <h1 ><span style={{borderBottom: '1px solid black'}}>Gym</span><span>Growth Management</span></h1>
+      
 
       <p className="text">
         <strong>

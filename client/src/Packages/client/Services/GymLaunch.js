@@ -6,8 +6,8 @@ function GymLaunch() {
       <div className="gymImg">
         <img src="/pictures/gym.photo.png" alt="" />
       </div>
-
-      <h1 className="h1">GYM LAUNCH FACILITY CONSULTATION</h1>
+      <h1 ><span style={{borderBottom: '1px solid black'}}>Gym</span><span>Launch Facility Consultation</span></h1>
+      
 
       <p className="text">
         <b>

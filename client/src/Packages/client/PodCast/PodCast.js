@@ -4,7 +4,7 @@ import './podcast.css'
 const PodCast = () => {
   return (
     <div className="mainPod reveal">
-      <h1 className="podcast">Podcast</h1>
+      <h1 ><span style={{borderBottom: '1px solid black', fontSize: '3rem'}}>Pod</span><span style={{fontSize: '3rem'}}>cast</span></h1>
       <div className="main__container_3">
         <div className="main__content_3">
           <h1>Advice from Experienced Business Training Coach</h1>

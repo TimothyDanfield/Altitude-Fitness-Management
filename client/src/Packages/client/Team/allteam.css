@@ -19,14 +19,7 @@
   }
   
   
-  .row_1 h1::after {
-    content: '';
-      background-color: rgb(31, 0, 59);
-      display: block;
-      height: 1px;
-      width: 74px;
-      margin: 2.5px 38.7rem 5px;
-  }
+  
   
   .row_2 {
     display: flex;
@@ -48,18 +41,14 @@
     font-weight: bold;
   }
   
-  .row_2 h1::after {
-    content: '';
-    background-color: rgb(31, 0, 59);
-    display: block;
-    height: 1px;
-    width: 100px;
-    margin: 2.5px auto 5px;
-  }
+
   
   .column {
-    width: 100%;
-    padding: 0.5em 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 20px;
   }
   @media screen and (min-width: 992px) {
     .card {
