@@ -13,7 +13,10 @@ import Footer from './Packages/client/Footer/Footer'
 import Affiliations from './Packages/client/Affiliations/Affiliations'
 import GymGrowth from './Packages/client/Services/gymGrowth'
 import GetStarted from './Packages/client/Affiliations/GetStarted'
-
+import Automation from './Packages/client/Services/Automation'
+import Employee from './Packages/client/Services/Employee'
+import GymLaunch from './Packages/client/Services/GymLaunch'
+import AllTeam from './Packages/client/Team/AllTeam'
 
 const App = () => {
 
@@ -32,13 +35,17 @@ const App = () => {
       <Route exact path='/marketing' element={<Marketing />}/>
       <Route exact path='/services' element={<Services />}/>
       <Route exact path='/gymgrowth' element={<GymGrowth />}/>
-      <Route exact path='/ourteam' element={<Team />}/>
+      <Route exact path='/automation' element={<Automation />}/>
+      <Route exact path='/employee' element={<Employee />}/>
+      <Route exact path='/gymlaunch' element={<GymLaunch />}/>
+      <Route exact path='/team' element={<Team />}/>
+      <Route exact path='/allteam' element={<AllTeam />}/>
       <Route exact path='/affiliations' element={<Affiliations />}/>
       <Route exact path='/getstarted' element={<GetStarted />}/>
       
 
      </Routes>
-     <Footer />
+     {/* <Footer /> */}
     </div>
   )
 }

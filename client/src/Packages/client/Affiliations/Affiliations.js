@@ -62,7 +62,7 @@ const Affiliations = () => {
 
   
     <div>
-      <a href="/getStarted.js" target="_blank">
+      <a href="/getstarted" target="_blank">
         <button className="seeAll">Get Started Now</button>
       </a>
     </div>

@@ -15,15 +15,17 @@
   justify-content: space-between;
   background-color: #333;
   color: white;
-  padding: 1rem;
+  /* padding: 1rem; */
+  width: 100%;
+  position: fixed;
 }
 
 .navbar__item {
   position: relative;
-  padding: 0.5rem 1rem;
-  cursor: pointer;
-  text-decoration: none;
-  color: white;
+    padding: 1.5rem 6rem;
+    cursor: pointer;
+    text-decoration: none;
+    color: white;
 }
 
 .navbar__item:hover {

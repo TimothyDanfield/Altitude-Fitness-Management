@@ -2,7 +2,7 @@
   background-color: #fefefe;
 }
 
-.aboutUs {
+.consulting {
   padding-left: 10px;
   padding-top: 60px;
   text-align: center;
@@ -13,13 +13,13 @@
   background-color: #fefefe;
 }
 
-.aboutUs::after {
+.consulting::after {
   content: '';
   background-color: rgb(31, 0, 59);
   display: block;
   height: 1px;
   width: 72px;
-  margin: 0.3px 43rem 0px;
+  margin: 0.3px 52.8rem 0px;
 }
 
 .main__container_1 {
