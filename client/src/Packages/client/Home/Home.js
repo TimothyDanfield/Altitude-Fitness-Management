@@ -1,5 +1,6 @@
 import React from "react";
-import Services from "/client/src/Packages/client/Services/Services";
+import Services from "../Services/Services";
+import Podcast from '../PodCast/PodCast'
 import "./home.css";
 
 const Home = () => {
@@ -19,7 +20,11 @@ const Home = () => {
               type="video/mp4"
             />
           </video>
-          <Services />
+          <div>
+            <Services />
+            <Podcast />
+          </div>
+
         </div>
       </div>
     </div>
