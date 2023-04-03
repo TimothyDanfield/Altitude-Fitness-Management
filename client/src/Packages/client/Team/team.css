@@ -63,8 +63,9 @@
 }
 
 .column {
-  width: 100px;
+  width: 50%;
   padding: 0.5em 0;
+  display: inline-block;
 }
 
 @media screen and (min-width: 992px) {
@@ -87,7 +88,7 @@
   cursor: pointer;
   transition: 0.3s;
   background-color: #fefefe;
-  width: 100px;
+  width: 100%;
 }
 
 .team-card .img-container {
