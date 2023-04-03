@@ -38,11 +38,11 @@ const Home = () => {
     <div className="wrapper">
       <div className="cols cols0">
         <div className='video-text'>
-          <h1 className="text">
+          <h1 className="home-header-text">
             <span className="alt-text">ALTITUDE</span>
           </h1>
-          <p className="text">
-            <span className="fit-text-container">FITNESS MANAGEMENT</span>
+          <p className="home-header-text">
+            <span className="fit-text">FITNESS MANAGEMENT</span>
           </p>
           <li class="navbar__btn">
           <a href="https://outlook.office365.com/owa/calendar/AltitudeFitnessManagementGroup@altitudemgmtintl.com/bookings/"  class="button" id="signin" target="_blank">Schedule online</a>

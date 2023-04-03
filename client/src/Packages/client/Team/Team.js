@@ -9,11 +9,11 @@ const OurTeam = () => {
 
 
         <div className="row_1">
-          <h1 ><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}>Team</span></h1>
+          <h1 ><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}> Team</span></h1>
         </div>
         <div className="row_2">
           <div className="column">
-            <div className="card">
+            <div className="team-card">
               <div className="img-container">
                 <img src="/Pictures/pedro.jpg" alt="3.avif" />
               </div>
@@ -25,7 +25,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="column">
-            <div className="card">
+            <div className="team-card">
               <div className="img-container">
                 <img src="/Pictures/Tim.png" alt="Marko" />
               </div>
@@ -55,7 +55,7 @@ const OurTeam = () => {
             </div>
           </div>
           <div className="column">
-            <div className="card">
+            <div className="team-card">
               <div className="img-container">
                 <img src="/Pictures/matt.png" alt="Mat" />
               </div>
@@ -81,7 +81,9 @@ const OurTeam = () => {
       </div>
       <div className="button-container">
         <Link to="/allteam">
-          <button className="team-button">View All</button>
+          <button className="team-button">
+            <p>View All</p>
+          </button>
         </Link>
       </div>
 

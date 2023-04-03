@@ -70,10 +70,18 @@
   text-shadow: 0 0 10px #fefefe;
 }
 
-.text {
+.fit-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: xx-large;
+  text-shadow: 0 0 10px #fefefe;
+}
+
+.home-header-text {
+  text-align: center;
   display: block;
-  font-size: 6em;
-  font-weight: 500;
+  font-size: 1.45em;
 }
 
 .video-container {
