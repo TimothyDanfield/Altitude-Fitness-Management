@@ -5,6 +5,7 @@ import './team.css'
 const OurTeam = () => {
   return (
     <div>
+    <div className="section-line"></div>
       <section>
         <div className="row_1">
         <h1 ><span style={{borderBottom: '1px solid black', fontSize: '3rem'}}>Our</span><span style={{fontSize: '3rem'}}>Team</span></h1>
