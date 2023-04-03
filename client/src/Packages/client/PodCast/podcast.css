@@ -9,15 +9,17 @@
 }
 
 .main__container_3 {
-  display: grid;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: row-reverse;
   grid-template-columns: 1fr 1fr;
   height: 90%;
-  width: 100%;
-  padding-left: 100px;
+  width: 90%;
   padding-top: 60px;
 }
 
 .main__content_3 {
+  text-align: left;
   color: #111111;
   width: 100%;
 }
@@ -77,6 +79,8 @@
 
 .main__btn_3 a {
   position: relative;
+  z-index: 2;
+  color: #fefefe;
   text-decoration: none;
 }
 .main__btn_3:after {
@@ -98,14 +102,10 @@
 }
 
 .main__img--card_3 {
-  padding-right: 50px;
   margin: 0px;
   max-height: 330px;
   max-width: 700px;
   border-radius: 4px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .podcast-h1 {

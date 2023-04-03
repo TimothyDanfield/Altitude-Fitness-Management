@@ -16,7 +16,7 @@ const Services = () => {
           </div>
         </div>
         <div class="services__card" onClick={() => window.location.href = "/automation"}>
-          <div class="imageContainer" style={{ backgroundImage: "url('/Pictures/gym.photo.png')", backgroundPosition: "center", backgroundSize: "cover" }}></div>
+          <div class="imageContainer" style={{ backgroundImage: "url('/Pictures/gym.photo.png')", backgroundPosition: "center", backgroundSize: "cover" }} ></div>
           <h2>Automation Services</h2>
           <p>
             Our automation services feature cutting-edge software in fitness technology which function to ensure that your gym is not wasting any time pushing papers.

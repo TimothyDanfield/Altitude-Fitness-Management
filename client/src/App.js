@@ -43,9 +43,8 @@ const App = () => {
         <Route exact path='/affiliations' element={<Affiliations />} />
         <Route exact path='/getstarted' element={<GetStarted />} />
 
-
-      </Routes>
-      {/* <Footer /> */}
+     </Routes>
+     <Footer />
     </div>
   )
 }
