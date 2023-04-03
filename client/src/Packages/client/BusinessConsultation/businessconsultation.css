@@ -8,25 +8,22 @@
   padding-left: 10px;
   padding-top: 60px;
   text-align: center;
-  background-color:#F0F5F9;
   font-size: 2.5rem;
   font-family: 'Albert Sans', sans-serif;
   font-weight: bold;
-  background-color: #fefefe;
 }
 
 
-.main__container_1 {
+.bsns_container_1 {
   display: grid;
-    grid-template-columns: 1fr 1fr;
-    align-items: center;
-    justify-content: center;
-    height: 90%;
-    z-index: 1;
-    width: 100%;
-    padding-top: 60px;
-    padding-bottom: 95px;
-    background-color: white
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+  justify-content: center;
+  height: 90%;
+  z-index: 1;
+  width: 100%;
+  padding-top: 60px;
+  padding-bottom: 95px;
 }
 
 .main__img--container_1 {
@@ -51,7 +48,7 @@
   filter: blur(0.5px);
 }
 
-.main__img--card_1 img{
+.main__img--card_1 img {
   padding-right: 2rem;
 }
 
@@ -66,7 +63,7 @@
   font-size: 2rem;
   line-height: 1.5;
   background: #ee0979;
-  background: rgba(214,37,37,255);
+  background: rgba(214, 37, 37, 255);
   background-size: 100%;
   -webkit-background-clip: text;
   -moz-background-clip: text;
@@ -74,23 +71,19 @@
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
   margin-bottom: 32px;
-  font-family: 'Albert Sans', sans-serif; 
+  font-family: 'Albert Sans', sans-serif;
   font-weight: bold;
 }
 
 .main__content_1 h2 {
   font-size: 1.25rem;
-  background: #ff8177; 
-  background: -webkit-linear-gradient(
-    to right,
-    #9114ff,
-    #da22ff
-  ); 
-  background: linear-gradient(
-    to right,
-    #8f0eff,
-    #da22ff
-  ); 
+  background: #ff8177;
+  background: -webkit-linear-gradient(to right,
+      #9114ff,
+      #da22ff);
+  background: linear-gradient(to right,
+      #8f0eff,
+      #da22ff);
   -webkit-background-clip: text;
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -127,6 +120,7 @@
   transition: all 0.35s ease 0s;
   outline: none;
 }
+
 .main__btn_1 a {
   position: relative;
   z-index: 2;
@@ -145,9 +139,11 @@
   transition: all 0.35s;
   border-radius: 4px;
 }
+
 .main__btn_1:hover {
   color: #fefefe;
 }
+
 .main__btn_1:hover:after {
   width: 100%;
 }

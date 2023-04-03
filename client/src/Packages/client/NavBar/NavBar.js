@@ -5,22 +5,26 @@ import './navbar1.css';
 
 function NavBar() {
   const [showServicesDropDown, setShowServicesDropDown] = useState(false);
-  
+
   const [showOurDriveDropDown, setShowOurDriveDropDown] = useState(false);
-  
+  const [showAffiliationsDropDown, setShowAffiliationsDropDown] = useState(false);
+
 
   const toggleServicesDropDown = () => {
     setShowServicesDropDown(!showServicesDropDown);
   };
 
-  
+
   const toggleOurDriveDropDown = () => {
     setShowOurDriveDropDown(!showOurDriveDropDown);
+  };
+  const toggleAffiliationsDropDown = () => {
+    setShowAffiliationsDropDown(!showAffiliationsDropDown);
   };
 
   return (
     <nav className="navbar">
-    <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
+      <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
       <Link to="/" className="navbar__item">HOME</Link>
       <Link to='/services' className="navbar__item" onMouseEnter={toggleServicesDropDown} onMouseLeave={toggleServicesDropDown}>
         SERVICES
@@ -38,15 +42,73 @@ function NavBar() {
         {showOurDriveDropDown && (
           <div className="navbar__dropdown">
             <Link to="/allteam" className="navbar__dropdown-item">Partners</Link>
-           
           </div>
         )}
       </div>
-      
+
       <Link to="/businessconsultation" className="navbar__item">CONSULTATION</Link>
       <Link to="/podcast" className="navbar__item">FITMOLIFE</Link>
-      <Link to="/affiliations" className="navbar__item">Affiliations</Link>
+      <Link  className="navbar__item" onMouseEnter={toggleAffiliationsDropDown} onMouseLeave={toggleAffiliationsDropDown}>
+        AFFILIATIONS
+        {showAffiliationsDropDown && (
+          <div className="navbar__dropdown">
+          <a
+  className="navbar__dropdown-item"
+  href="https://www.elekio.com"
+  target="_blank"
+>
+  Elekio
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.fbafitness.com/"
+  target="_blank"
+>
+  FBA
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.ihrsa.org/"
+  target="_blank"
+>
+  IHRSA
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.lifefitness.com/"
+  target="_blank"
+>
+  Life Fitness
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.ncsf.org/"
+  target="_blank"
+>
+  NCSF
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.precor.com/"
+  target="_blank"
+>
+  Precor
+</a>
+<a
+  className="navbar__dropdown-item"
+  href="https://www.roguefitness.com/"
+  target="_blank"
+>
+  Rogue
+</a>
+
+
+       
+          </div>
+        )}
+      </Link>
       
+
     </nav>
   );
 }

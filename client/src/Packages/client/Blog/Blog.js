@@ -18,7 +18,7 @@ const Blog = () => {
     }
 
     return (
-        <div>
+        <div className='blog'>
             <section className="blog-section">
                 <div className="blog-title" id="blog1">
                     <h2 className="blog">Blog Title 1</h2>
