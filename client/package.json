@@ -8,5 +8,8 @@
     "start": "react-scripts start"
   },
   "author": "",
-  "license": "ISC"
+  "license": "ISC",
+  "dependencies": {
+    "react-tooltip": "^5.10.4"
+  }
 }

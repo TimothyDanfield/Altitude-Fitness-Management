@@ -5,9 +5,11 @@ import './team.css'
 const OurTeam = () => {
   return (
     <div className='team-section'>
-      <section>
+      <div>
+
+
         <div className="row_1">
-        <h1 ><span style={{borderBottom: '1px solid black', fontSize: '3rem'}}>Our</span><span style={{fontSize: '3rem'}}>Team</span></h1>
+          <h1 ><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}>Team</span></h1>
         </div>
         <div className="row_2">
           <div className="column">
@@ -76,12 +78,13 @@ const OurTeam = () => {
             </div>
           </div>
         </div>
-      </section>
+      </div>
       <div className="button-container">
         <Link to="/allteam">
-          <button className="button">See All Team Members</button>
+          <button className="team-button">View All</button>
         </Link>
       </div>
+
     </div>
   );
 };

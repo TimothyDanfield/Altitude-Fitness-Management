@@ -5,22 +5,22 @@ import './navbar1.css';
 
 function NavBar() {
   const [showServicesDropDown, setShowServicesDropDown] = useState(false);
-  
+
   const [showOurDriveDropDown, setShowOurDriveDropDown] = useState(false);
-  
+
 
   const toggleServicesDropDown = () => {
     setShowServicesDropDown(!showServicesDropDown);
   };
 
-  
+
   const toggleOurDriveDropDown = () => {
     setShowOurDriveDropDown(!showOurDriveDropDown);
   };
 
   return (
     <nav className="navbar">
-    <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
+      <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
       <Link to="/" className="navbar__item">HOME</Link>
       <Link to='/services' className="navbar__item" onMouseEnter={toggleServicesDropDown} onMouseLeave={toggleServicesDropDown}>
         SERVICES
@@ -38,15 +38,14 @@ function NavBar() {
         {showOurDriveDropDown && (
           <div className="navbar__dropdown">
             <Link to="/allteam" className="navbar__dropdown-item">Partners</Link>
-           
           </div>
         )}
       </div>
-      
+
       <Link to="/businessconsultation" className="navbar__item">CONSULTATION</Link>
       <Link to="/podcast" className="navbar__item">FITMOLIFE</Link>
       <Link to="/affiliations" className="navbar__item">Affiliations</Link>
-      
+
     </nav>
   );
 }

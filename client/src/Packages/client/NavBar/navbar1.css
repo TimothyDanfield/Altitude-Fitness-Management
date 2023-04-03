@@ -10,39 +10,46 @@
   height: 78px;
 }
 
+
 .navbar {
+  background-color: transparent;
+  backdrop-filter: blur(100px);
+  height: 90px;
   display: flex;
   justify-content: space-between;
-  background-color: #333;
-  color: white;
-  /* padding: 1rem; */
-  width: 100%;
+  align-items: center;
+  font-size: 1.15rem;
   position: fixed;
+  z-index: 999;
+  min-width: 100%;
+  padding: 2%;
 }
 
 .navbar__item {
-  position: relative;
-    padding: 1.5rem 6rem;
-    cursor: pointer;
-    text-decoration: none;
-    color: white;
+  display: flex;
+  max-width: 100px;
+  align-items: center;
+  text-decoration: none;
+  height: 100%;
+  background-size: 100%;
+  color: black;
+  border-bottom: 3px solid transparent;
 }
 
 .navbar__item:hover {
-  background-color: #555;
+  color: rgba(214,37,37,255);
+  border-bottom: 3px solid rgba(214,37,37,255);
 }
 
 .navbar__dropdown {
   display: flex;
   flex-direction: column;
-  top: 100%;
-  left: 0;
-  width: 100%;
+  margin-top: 250px;
+  margin-left: -95%;
   color: red;
 }
 
 .navbar__dropdown-item {
-box-sizing: border-box;
 background-color: rgba(255, 255, 255, 0.24);
 color: black;
 padding: 8px 16px;

@@ -1,5 +1,5 @@
 import React from 'react';
-import './allteam.css'
+// import './allteam.css'
 
 const AllTeam = () => {
   return (

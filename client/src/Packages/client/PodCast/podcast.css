@@ -1,24 +1,16 @@
 .mainPod {
-  background-color: #e1e1e1;
-  height: 100%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  background-color: #F0F5F9;
+  height: fit-content;
+  padding: 50px;
   width: 100%;
 }
-.podcast {
-  padding-left: 10px;
-  padding-top: 60px;
-  text-align: center;
-  font-size: 2.5rem;
-  font-family: 'Albert Sans', sans-serif;
-  font-weight: 1px;
-}
-
-
 
 .main__container_3 {
   display: grid;
   grid-template-columns: 1fr 1fr;
-  align-items: center;
-  justify-content: center;
   height: 90%;
   width: 100%;
   padding-left: 100px;
@@ -108,18 +100,15 @@
 .main__img--card_3 {
   padding-right: 50px;
   margin: 0px;
-  height: 330px;
-  width: 700px;
+  max-height: 330px;
+  max-width: 700px;
   border-radius: 4px;
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
-#services {
-  padding: 120px 0;
-}
 
-h1 {
+.podcast-h1 {
   width: 100%;
   text-align: center;
   font-size: 3em;

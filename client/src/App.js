@@ -20,32 +20,32 @@ import AllTeam from './Packages/client/Team/AllTeam'
 
 const App = () => {
 
-  
+
 
 
   return (
-    <div>
-    <NavBar />
-     <Routes>
-      <Route exact path='/' element={<Home />}/>
-      <Route exact path='/home' element={<Home />}/>
-      <Route exact path='/about' element={<AboutUs />}/>
-      <Route exact path='/podcast' element={<PodCast />}/>
-      <Route exact path='/businessconsultation' element={<BusinessConsultation />}/>
-      <Route exact path='/marketing' element={<Marketing />}/>
-      <Route exact path='/services' element={<Services />}/>
-      <Route exact path='/gymgrowth' element={<GymGrowth />}/>
-      <Route exact path='/automation' element={<Automation />}/>
-      <Route exact path='/employee' element={<Employee />}/>
-      <Route exact path='/gymlaunch' element={<GymLaunch />}/>
-      <Route exact path='/team' element={<Team />}/>
-      <Route exact path='/allteam' element={<AllTeam />}/>
-      <Route exact path='/affiliations' element={<Affiliations />}/>
-      <Route exact path='/getstarted' element={<GetStarted />}/>
-      
+    <div className="app">
+      <NavBar />
+      <Routes>
+        <Route exact path='/' element={<Home />} />
+        <Route exact path='/home' element={<Home />} />
+        <Route exact path='/about' element={<AboutUs />} />
+        <Route exact path='/podcast' element={<PodCast />} />
+        <Route exact path='/businessconsultation' element={<BusinessConsultation />} />
+        <Route exact path='/marketing' element={<Marketing />} />
+        <Route exact path='/services' element={<Services />} />
+        <Route exact path='/gymgrowth' element={<GymGrowth />} />
+        <Route exact path='/automation' element={<Automation />} />
+        <Route exact path='/employee' element={<Employee />} />
+        <Route exact path='/gymlaunch' element={<GymLaunch />} />
+        <Route exact path='/team' element={<Team />} />
+        <Route exact path='/allteam' element={<AllTeam />} />
+        <Route exact path='/affiliations' element={<Affiliations />} />
+        <Route exact path='/getstarted' element={<GetStarted />} />
 
-     </Routes>
-     {/* <Footer /> */}
+
+      </Routes>
+      {/* <Footer /> */}
     </div>
   )
 }
