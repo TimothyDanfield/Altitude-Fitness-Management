@@ -11,9 +11,11 @@
 .row_1 {
   display: flex;
   flex-wrap: wrap;
-  padding: 60px 2.2em;
+  padding: 93px 2.2em;
   text-align: center;
+  font-size: 1rem;
 }
+
 
 .row_1 h1 {
   width: 100%;
@@ -32,9 +34,9 @@
 
 
 .row_2 {
-  display: flex;
+
   flex-wrap: wrap;
-  padding: 5em;
+  
   text-align: center;
 }
 
@@ -61,7 +63,7 @@
 }
 
 .column {
-  width: 100%;
+  width: 100px;
   padding: 0.5em 0;
 }
 
@@ -85,6 +87,7 @@
   cursor: pointer;
   transition: 0.3s;
   background-color: #fefefe;
+  width: 100px;
 }
 
 .team-card .img-container {

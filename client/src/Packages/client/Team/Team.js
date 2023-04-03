@@ -30,7 +30,7 @@ const OurTeam = () => {
                 <img src="/Pictures/Tim.png" alt="Marko" />
               </div>
               <h3>Timothy Danfield</h3>
-              <p>Executive Techlogy Manager</p>
+              <p>Executive TECHNOLOGY Manager</p>
               <div className="icons">
                 {/* <a href="#">
                   <i className="fab fa-twitter"></i>
