@@ -1,11 +1,12 @@
 .mainPod {
-  background-color: #fefefe;
+  background-color: #e1e1e1;
+  height: 100%;
+  width: 100%;
 }
 .podcast {
   padding-left: 10px;
   padding-top: 60px;
   text-align: center;
-  background-color: #fefefe;
   font-size: 2.5rem;
   font-family: 'Albert Sans', sans-serif;
   font-weight: 1px;
@@ -15,8 +16,6 @@
   content: '';
   background-color: rgb(31, 0, 59);
   display: block;
-  height: 1px;
-  width: 71px;
   margin: 0.3px 54.9rem 0px;
 }
 
@@ -26,10 +25,8 @@
   align-items: center;
   justify-content: center;
   height: 90%;
-  z-index: 1;
   width: 100%;
   padding-left: 100px;
-  background: #fefefe;
   padding-top: 60px;
 }
 
@@ -93,8 +90,6 @@
 
 .main__btn_3 a {
   position: relative;
-  z-index: 2;
-  color: #fefefe;
   text-decoration: none;
 }
 .main__btn_3:after {

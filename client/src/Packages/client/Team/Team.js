@@ -4,7 +4,7 @@ import './team.css'
 
 const OurTeam = () => {
   return (
-    <div>
+    <div className='team-section'>
       <section>
         <div className="row_1">
           <h1>Our Team</h1>

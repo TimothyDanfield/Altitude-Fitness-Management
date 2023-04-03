@@ -2,9 +2,9 @@ import React from "react";
 import './businessconsultation.css'
 const BusinessConsultation = () => {
   return (
-    <div className="mainBsns reveal" id="consulting">
-      <h1 class="consulting"><span style={{borderBottom: '1px solid black'}}>Con</span><span>sulting</span></h1>
-      <div className="main__container_1">
+    <div className="mainBsns reveal">
+      <h1 className="consulting"><span style={{borderBottom: '1px solid black'}}>Con</span><span>sulting</span></h1>
+      <div className="bsns_container_1">
         <div className="main__img--container_1">
           <div className="main__img--card_1">
              <img src="/Pictures/wallpaperflare.com_wallpaper.jpg" alt="123addw"></img> 
