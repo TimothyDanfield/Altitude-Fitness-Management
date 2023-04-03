@@ -20,18 +20,12 @@
   font-family: 'Albert Sans', sans-serif; 
   font-weight: bold;
 }
-.services h1::after {
-  content: '';
-  background-color: rgb(31, 0, 59);
-  display: block;
-  height: 1px;
-  width: 76px;
-  margin: 2.5px 4px 5px;
-}  
+
 .services__wrapper {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  grid-template-rows: 1fr;
+grid-template-columns: 1fr 1fr 1fr 1fr;
+grid-template-rows: 1fr;
+grid-gap: 10px;
 }
 
 .services__card {
@@ -50,6 +44,8 @@
   transition: color 0.4s linear;
   border-radius: 40px;
 }
+
+
 
 .services__card:nth-child(1) {
   background-color: #111111;

@@ -3,14 +3,7 @@ font-size:xx-large ;
 }
 
 
-.row_1 h1::after {
-  content: '';
-  background-color: rgb(31, 0, 59);
-  display: block;
-  height: 1px;
-  width: 68px;
-  margin: 2.5px 0.1rem 5px;
-}
+
 
 
 .affiliations {

@@ -25,14 +25,7 @@
 }
 
 
-.row_1 h1::after {
-  content: '';
-    background-color: rgb(31, 0, 59);
-    display: block;
-    height: 1px;
-    width: 74px;
-    margin: 2.5px 38.7rem 5px;
-}
+
 
 .row_2 {
   display: flex;

@@ -7,9 +7,7 @@ function Automation() {
       <div className="gymImg">
       <img src="/pictures/gym.photo.png" alt="" />
       </div>
-      <h1 className="h1">
-        AUTOMATION SERVICES
-      </h1>
+      <h1 ><span style={{borderBottom: '1px solid black'}}>Aut</span><span>omation Services</span></h1>
       <p className="text"><b>Our automation services feature cutting-edge software in fitness technology which function to ensure that your gym is not wasting any time pushing papers. With features that can automate billing, scheduling, member management, and more, our gym management software can save you time and money while improving the overall efficiency of your operations. </b></p>
       <br />
       <br />

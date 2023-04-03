@@ -7,7 +7,7 @@ const OurTeam = () => {
     <div className='team-section'>
       <section>
         <div className="row_1">
-          <h1>Our Team</h1>
+        <h1 ><span style={{borderBottom: '1px solid black', fontSize: '3rem'}}>Our</span><span style={{fontSize: '3rem'}}>Team</span></h1>
         </div>
         <div className="row_2">
           <div className="column">
