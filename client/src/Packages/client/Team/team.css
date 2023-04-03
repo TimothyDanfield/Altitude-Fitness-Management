@@ -5,7 +5,7 @@
   padding: 20px;
   display: flex;
   flex-direction: column;
-  
+  flex-wrap: wrap;
 }
 
 .row_1 {
@@ -34,7 +34,7 @@
 
 
 .row_2 {
-
+  display: flex;
   flex-wrap: wrap;
   
   text-align: center;
@@ -63,7 +63,7 @@
 }
 
 .column {
-  width: 100px;
+  width: 50%;
   padding: 0.5em 0;
 }
 
@@ -87,7 +87,7 @@
   cursor: pointer;
   transition: 0.3s;
   background-color: #fefefe;
-  width: 100px;
+  width: 100%;
 }
 
 .team-card .img-container {
@@ -163,7 +163,7 @@
 .button-container {
   display: flex;
   justify-content: flex-end;
-  width: 93%;
+  width: 99%;
 }
 
 .team-button {
