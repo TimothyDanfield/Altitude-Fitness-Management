@@ -50,7 +50,7 @@
   }
   
   .card {
-    width: calc(33.33% - 40px);
+    width: 400px;
     margin: 20px;
   }
   

@@ -31,6 +31,8 @@ const Home = () => {
     );
   };
 
+  
+
 
   return (
     <div className="wrapper">
@@ -40,8 +42,11 @@ const Home = () => {
             <span className="alt-text">ALTITUDE</span>
           </h1>
           <p className="text">
-            <span className="fit-text">FITNESS MANAGEMENT</span>
+            <span className="fit-text-container">FITNESS MANAGEMENT</span>
           </p>
+          <li class="navbar__btn">
+          <a href="https://outlook.office365.com/owa/calendar/AltitudeFitnessManagementGroup@altitudemgmtintl.com/bookings/"  class="button" id="signin" target="_blank">Schedule online</a>
+        </li>
         </div>
         <div className="video-container">
           <video className="video" autoPlay loop muted>
@@ -52,7 +57,9 @@ const Home = () => {
           </video>
 
         </div>
+        
       </div>
+      
       <div className="layout">
         <Services />
         <PodCast />
