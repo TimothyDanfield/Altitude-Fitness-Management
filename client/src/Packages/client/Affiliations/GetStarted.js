@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import './getstarted.css'
+
 
 function GetStarted() {
   const [formData, setFormData] = useState({

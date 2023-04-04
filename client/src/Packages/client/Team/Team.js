@@ -1,5 +1,7 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faYoutube, faLinkedin, faGithub } from '@fortawesome/free-brands-svg-icons'
 import './team.css'
 
 const OurTeam = () => {
@@ -20,7 +22,18 @@ const OurTeam = () => {
               <h3>Pedro De Freitas Cedeno</h3>
               <p>Founder and CEO</p>
               <div className="icons">
-                {/* // need to import React icons */}
+              <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a> 
               </div>
             </div>
           </div>
@@ -32,25 +45,18 @@ const OurTeam = () => {
               <h3>Timothy Danfield</h3>
               <p>Executive TECHNOLOGY Manager</p>
               <div className="icons">
-                {/* <a href="#">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#">
-                  <i className="fas fa-envelope"></i>
-                </a>
-                <a href="">
-                  <i className="fas fa-envelope"></i> 
-                </a>
-                <a href="">
-                  <i className="fas fa-envelope"></i> 
-                </a>
-              */}
+              <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
               </div>
             </div>
           </div>
@@ -62,18 +68,18 @@ const OurTeam = () => {
               <h3>Matthew Wakumoto</h3>
               <p>Executive Media Manager</p>
               <div className="icons">
-                <a href="#">
-                  <i className="fab fa-twitter"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-linkedin"></i>
-                </a>
-                <a href="#">
-                  <i className="fab fa-github"></i>
-                </a>
-                <a href="#">
-                  <i className="fas fa-envelope"></i>
-                </a>
+              <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
               </div>
             </div>
           </div>

@@ -1,5 +1,7 @@
 import React from 'react';
-// import './allteam.css'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
+import './allteam.css'
 
 const AllTeam = () => {
   return (
@@ -7,8 +9,8 @@ const AllTeam = () => {
       <div className="row_1">
       <h1 ><span style={{borderBottom: '1px solid black'}}>Our</span><span>Team</span></h1>
       </div>
-      <div className="row_2">
-        <div className="column">
+      <div className="column">
+        <div className="column1">
           <div className="card">
             <div className="img-container">
               <img src="/Pictures/pedro.jpg" alt="Pedro" />
@@ -16,25 +18,18 @@ const AllTeam = () => {
             <h3>Pedro De Freitas Cedeno</h3>
             <p>Founder and CEO</p>
             <div className="icons">
-             {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a>
-              <a href="">
-                <i className="fas fa-envelope"></i> 
-              </a>
-              <a href="">
-                <i className="fas fa-envelope"></i> 
-              </a>
-            */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
         </div>
@@ -47,25 +42,18 @@ const AllTeam = () => {
             <h3>Timothy Danfield</h3>
             <p>Executive Techlogy Manager</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a>
-              <a href="">
-                <i className="fas fa-envelope"></i> 
-              </a>
-              <a href="">
-                <i className="fas fa-envelope"></i> 
-              </a>
-            */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
         </div>
@@ -77,18 +65,18 @@ const AllTeam = () => {
             <h3>Matthew Wakumoto</h3>
             <p>Executive Media Manager</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
           </div>
@@ -100,18 +88,18 @@ const AllTeam = () => {
             <h3>Blanka Peller</h3>
             <p>UX Designer</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
           </div>
@@ -123,18 +111,18 @@ const AllTeam = () => {
             <h3>Nathan Grandinette</h3>
             <p>Web Developer</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
           </div>
@@ -146,18 +134,18 @@ const AllTeam = () => {
             <h3>Josias Guzman</h3>
             <p>Web Developer</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
           </div>
@@ -169,43 +157,21 @@ const AllTeam = () => {
             <h3>MaryKate Larson</h3>
             <p>Digital Marketing/Graphic Designer</p>
             <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+    <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
+  </a>
+  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
+</a>
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+  <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
+</a>
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+  <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
+</a>
             </div>
           </div>
-        <div className="column">
-          <div className="card">
-            <div className="img-container">
-              <img src="/Pictures/marko.jpg" alt="Marko" />
-            </div>
-            <h3>Marko Jakovjevic</h3>
-            <p>Web Developer</p>
-            <div className="icons">
-              {/* <a href="#">
-                <i className="fab fa-twitter"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-linkedin"></i>
-              </a>
-              <a href="#">
-                <i className="fab fa-github"></i>
-              </a>
-              <a href="#">
-                <i className="fas fa-envelope"></i>
-              </a> */}
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

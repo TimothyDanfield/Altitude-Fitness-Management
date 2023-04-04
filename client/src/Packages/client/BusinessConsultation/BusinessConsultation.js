@@ -18,7 +18,7 @@ const BusinessConsultation = () => {
             Discover how business consulting services can improve your company's success. Get expert advice and tips from experienced business consultants. By working with a consultant, you can get expert guidance on everything from financial management to marketing strategies, helping you take your business to the next level.
           </p>
           <button className="main__btn_1">
-            <a href="https://payhip.com/AltitudeMgmtIntl">Learn More</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank">Learn More</a>
           </button>
         </div>
       </div>

@@ -1,14 +1,16 @@
 import React from 'react'
 import './affiliations.css'
 
-
 const Affiliations = () => {
   return (
     <section className="affiliations">
-      <div className="row_1">
-        <h1 ><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Ind</span><span style={{ fontSize: '3rem' }}>ustry Affiliations and Vendors</span></h1>
-      </div>
       <ul className="aff">
+      <div className="vendors">
+        <h1>
+          <span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Aff</span>
+          <span style={{ fontSize: '3rem' }}>iliations and Vendors</span>
+        </h1>
+      </div>
         <li>
           <a href="https://www.ncsf.org/" target="_blank">
             <div className="banner1">
@@ -58,15 +60,12 @@ const Affiliations = () => {
             </div>
           </a>
         </li>
+        <li>
+          <a href="/getstarted" target="_blank" className="getStartedLink">
+            <button className="seeAll">Get Started Now</button>
+          </a>
+        </li>
       </ul>
-
-
-      <div>
-        <a href="/getstarted" target="_blank">
-          <button className="seeAll">Get Started Now</button>
-        </a>
-      </div>
-
 
       <div className="logos"></div>
     </section>

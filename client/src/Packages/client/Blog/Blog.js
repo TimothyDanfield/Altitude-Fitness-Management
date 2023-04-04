@@ -31,7 +31,7 @@ const Blog = () => {
                     <p className="post">Get the latest updates and exclusive content by joining our community. Fill out the form below to get started!</p>
                     <form className="form" action="" method="post">
                         <div className="form-group">
-                            <label htmlFor="name">Name:</label>
+                            <label htmlFor="name">First and Last Name:</label>
                             <input type="textt" id="name" name="name" required onChange={nameChange}/>
                         </div>
                         <div className="form-group">

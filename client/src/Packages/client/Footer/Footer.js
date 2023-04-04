@@ -1,5 +1,5 @@
-// import { FontAwesomeIcon } from '@fortawesome/react-fontawesome' 
-// import { faInstagram, faYoutube, faTwitter, faLinkedin } from '@fortawesome/react-fontawesome'
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faTwitter, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import React from 'react'
 import './footer.css'
 
@@ -20,7 +20,7 @@ const Footer = () => {
         </div>
 
         <div className='social_icons'>
-        {/* <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
   <a href="https://www.youtube.com/">
@@ -31,7 +31,7 @@ const Footer = () => {
 </a>
       <a href="https://twitter.com/">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a> */}
+</a> 
         </div>
 
         <div className='footer__link--wrapper'>

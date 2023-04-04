@@ -233,3 +233,39 @@ input[type="submit"]:hover {
   width: 100%;
   font-size: 2.8rem;
 }
+
+.footer_p_1 {
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.footer_p_2 {
+  text-align: center;
+  letter-spacing: 0.1rem;
+  position: absolute;
+  bottom: 123px;
+  left: 48px;
+}
+
+.footer_p_1 p {
+  padding-top: 30px;
+  color: #fefefe;
+  text-align: center;
+  letter-spacing: 0.1rem;
+}
+
+.footer_p_2 p {
+  padding-top: 30px;
+  color: #fefefe;
+  text-align: left;
+  letter-spacing: 0.1rem;
+  padding-top: 20px;
+}
+
+.website__rights {
+  color: #fefefe;
+  display: block;
+  position: relative;
+  box-sizing: border-box;
+  letter-spacing: 0.1rem;
+}
