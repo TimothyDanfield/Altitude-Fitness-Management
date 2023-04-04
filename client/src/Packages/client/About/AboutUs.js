@@ -20,7 +20,7 @@ const AboutUs = () => {
           </p>
 
           <button className="main__btn">
-            <a href="https://payhip.com/AltitudeMgmtIntl">Learn More</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Learn More</a>
           </button>
 
           <div className="main reveal" id="sign-up">
@@ -38,7 +38,7 @@ const AboutUs = () => {
                 </p>
 
                 <button className="main__btn">
-                  <a href="https://www.fitmolife.com/">See More</a>
+                  <a href="https://www.fitmolife.com/" target="_blank" rel="noopener noreferrer">See More</a>
                 </button>
               </div>
 

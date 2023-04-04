@@ -18,18 +18,18 @@ const AllTeam = () => {
             <h3>Pedro De Freitas Cedeno</h3>
             <p>Founder and CEO</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
         </div>
@@ -42,18 +42,18 @@ const AllTeam = () => {
             <h3>Timothy Danfield</h3>
             <p>Executive Techlogy Manager</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
         </div>
@@ -65,18 +65,18 @@ const AllTeam = () => {
             <h3>Matthew Wakumoto</h3>
             <p>Executive Media Manager</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
           </div>
@@ -88,18 +88,18 @@ const AllTeam = () => {
             <h3>Blanka Peller</h3>
             <p>UX Designer</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
           </div>
@@ -111,18 +111,18 @@ const AllTeam = () => {
             <h3>Nathan Grandinette</h3>
             <p>Web Developer</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
           </div>
@@ -134,18 +134,18 @@ const AllTeam = () => {
             <h3>Josias Guzman</h3>
             <p>Web Developer</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
           </div>
@@ -157,18 +157,18 @@ const AllTeam = () => {
             <h3>MaryKate Larson</h3>
             <p>Digital Marketing/Graphic Designer</p>
             <div className="icons">
-            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank">
+            <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/@fitmolife" target="_blank">
+  <a href="https://www.youtube.com/@fitmolife" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank">
+<a href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank">
+      <a href="https://twitter.com/AltitudeMgmtInt" target="_blank" rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
-</a>
+</a> 
             </div>
           </div>
         

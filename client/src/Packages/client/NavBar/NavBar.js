@@ -24,7 +24,7 @@ function NavBar() {
 
   return (
     <nav className="navbar">
-      <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo'></img>
+      <img src='/Pictures/Altitude Fitness Management SD1 Logo.png' className='navbar-logo' alt='navlogo'></img>
       <Link to="/" className="navbar__item">HOME</Link>
 
       <div className='nav-dropdown'>
@@ -62,6 +62,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.elekio.com"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Elekio
           </a>
@@ -69,6 +70,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.fbafitness.com/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             FBA
           </a>
@@ -76,6 +78,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.ihrsa.org/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             IHRSA
           </a>
@@ -83,6 +86,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.lifefitness.com/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Life Fitness
           </a>
@@ -90,6 +94,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.ncsf.org/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             NCSF
           </a>
@@ -97,6 +102,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.precor.com/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Precor
           </a>
@@ -104,6 +110,7 @@ function NavBar() {
             className="nav-dropdown-item"
             href="https://www.roguefitness.com/"
             target="_blank"
+            rel="noopener noreferrer"
           >
             Rogue
           </a>

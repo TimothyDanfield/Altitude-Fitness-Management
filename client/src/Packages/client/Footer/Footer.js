@@ -20,16 +20,16 @@ const Footer = () => {
         </div>
 
         <div className='social_icons'>
-        <a href="https://www.instagram.com/">
+        <a href="https://www.instagram.com/" target='_blank' rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
   </a>
-  <a href="https://www.youtube.com/">
+  <a href="https://www.youtube.com/" target='_blank' rel="noopener noreferrer">
   <FontAwesomeIcon icon={faYoutube} className='social__icon--link' />
 </a>
-<a href="https://www.linkedin.com/">
+<a href="https://www.linkedin.com/" target='_blank' rel="noopener noreferrer">
   <FontAwesomeIcon icon={faLinkedin} className='social__icon--link' />
 </a>
-      <a href="https://twitter.com/">
+      <a href="https://twitter.com/" target='_blank' rel="noopener noreferrer">
   <FontAwesomeIcon icon={faTwitter}  className='social__icon--link'/>
 </a> 
         </div>
@@ -38,26 +38,26 @@ const Footer = () => {
         <div className='footer__link--items'>
             <h2>About us</h2>
             <a href="/Terms.js" target="_blank" >Terms</a>
-            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank">Altitude Shop</a>
-            <a href="https://altitude-media-group.breezy.hr/" target="_blank">Location</a>
-            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank">Privacy policy</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Altitude Shop</a>
+            <a href="https://altitude-media-group.breezy.hr/" target="_blank" rel="noopener noreferrer">Location</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Privacy policy</a>
             </div>
         
         <div className="footer__link--items">
             <h2>Contact Us</h2>
-            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Contact</a>
-            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Support</a>
-            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank">Destinations</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank" rel="noopener noreferrer">Contact</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank" rel="noopener noreferrer">Support</a>
+            <a href="https://payhip.com/AltitudeMgmtIntl/contact" target="_blank" rel="noopener noreferrer">Destinations</a>
           </div>
 
           <div className="footer__link--items">
             <h2>Social</h2>
-            <a href="https://www.instagram.com/altitudefitmgmt/">Instagram</a>
+            <a href="https://www.instagram.com/altitudefitmgmt/" target='_blank' rel="noopener noreferrer">Instagram</a>
             <a
-              href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/"
+              href="https://www.linkedin.com/company/altitudefitlife-mgmt/people/" target='_blank' rel="noopener noreferrer"
               >LinkedIn</a>
-            <a href="https://twitter.com/AltitudeMgmtInt">Twitter</a>
-            <a href="https://www.fitmolife.com/">FitMoLife</a>
+            <a href="https://twitter.com/AltitudeMgmtInt" target='_blank' rel="noopener noreferrer">Twitter</a>
+            <a href="https://www.fitmolife.com/" target='_blank' rel="noopener noreferrer">FitMoLife</a>
           </div>
           </div>
 

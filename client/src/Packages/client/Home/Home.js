@@ -8,28 +8,7 @@ import "./home.css";
 import Team from '../Team/Team'
 
 const Home = () => {
-  const renderServices = () => {
-    return (
-      <div>
-        <Services />
-      </div>
-    );
-  };
 
-  const renderPodCast = () => {
-    return (
-      <div>
-        <PodCast />
-      </div>
-    );
-  };
-  const renderConsultation = () => {
-    return (
-      <div>
-        <BusinessConsultation />
-      </div>
-    );
-  };
 
   
 
@@ -45,7 +24,7 @@ const Home = () => {
             <span className="fit-text">FITNESS MANAGEMENT</span>
           </p>
           <li class="navbar__btn">
-          <a href="https://outlook.office365.com/owa/calendar/AltitudeFitnessManagementGroup@altitudemgmtintl.com/bookings/"  class="button" id="signin" target="_blank">Schedule online</a>
+          <a href="https://outlook.office365.com/owa/calendar/AltitudeFitnessManagementGroup@altitudemgmtintl.com/bookings/"  class="button" id="signin" target="_blank" rel="noopener noreferrer">Schedule online</a>
         </li>
         </div>
         <div className="video-container">
