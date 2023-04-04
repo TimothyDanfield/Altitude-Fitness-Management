@@ -1,7 +1,6 @@
 .row_1 {
     display: flex;
     flex-wrap: wrap;
-    padding: 60px 2.2em;
     text-align: center;
     font-size: 3rem;
   }

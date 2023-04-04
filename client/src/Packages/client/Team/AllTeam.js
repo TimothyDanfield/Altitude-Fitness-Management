@@ -40,7 +40,7 @@ const AllTeam = () => {
               <img src="/Pictures/Tim.png" alt="Tim" />
             </div>
             <h3>Timothy Danfield</h3>
-            <p>Executive Techlogy Manager</p>
+            <p>Executive Manager of Technology</p>
             <div className="icons">
             <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />
@@ -63,7 +63,7 @@ const AllTeam = () => {
               <img src="/Pictures/matt.png" alt="Mat" />
             </div>
             <h3>Matthew Wakumoto</h3>
-            <p>Executive Media Manager</p>
+            <p>Executive Manager of Media and Marketing Engagement</p>
             <div className="icons">
             <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
     <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />

@@ -17,7 +17,7 @@ import Automation from './Packages/client/Services/Automation'
 import Employee from './Packages/client/Services/Employee'
 import GymLaunch from './Packages/client/Services/GymLaunch'
 import AllTeam from './Packages/client/Team/AllTeam'
-
+import ChangeRequest from './Packages/client/ChangeRequest/ChangeRequest'
 const App = () => {
 
 
@@ -41,6 +41,7 @@ const App = () => {
         <Route exact path='/team' element={<Team />} />
         <Route exact path='/allteam' element={<AllTeam />} />
         <Route exact path='/affiliations' element={<Affiliations />} />
+        <Route exact path='/changerequest' element={<ChangeRequest />} />
         <Route exact path='/getstarted' element={<GetStarted />} />
 
      </Routes>

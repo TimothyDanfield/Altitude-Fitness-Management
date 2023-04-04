@@ -63,12 +63,17 @@ const Footer = () => {
 
         <div className="sponsors">
           <p>IN PARTNERSHIP WITH</p>
-          <a href="https://www.fbafitness.com/content/fitness-business-association-1">
+          <a href="https://www.fbafitness.com/content/fitness-business-association-1" target='_blank' rel="noopener noreferrer">
             <img className="img1" src="/Pictures/fba-logo5-1024x614.png" alt="Sponsor 2"></img>
           </a>
           <a href="https://www.ihrsa.org/">
-            <img className="img2" src="/Pictures/sponor-removebg-preview.png" alt="Sponsor 1"></img>
+            <img className="img2" src="/Pictures/sponor-removebg-preview.png" target='_blank' rel="noopener noreferrer" alt="Sponsor 1"></img>
           </a>
+        </div>
+
+        <div class="signatures">
+          <p class="signText">Designed by the Altitude Fitness Development Team</p>
+          <img src="/Pictures/MicrosoftTeams-image__7_-removebg-preview.png" class="sign2"></img>
         </div>
 
         <section className="footer_p_2">

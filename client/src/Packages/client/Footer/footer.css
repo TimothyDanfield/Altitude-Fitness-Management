@@ -269,3 +269,18 @@ input[type="submit"]:hover {
   box-sizing: border-box;
   letter-spacing: 0.1rem;
 }
+
+.signatures {
+  text-align: center;
+    letter-spacing: 0.1rem;
+    position: absolute;
+    bottom: 9px;
+    left: 2.9rem;
+    color: #fefefe;
+}
+
+.sign2 {
+  max-height: 60px;
+  filter: brightness(0) invert(1);
+  padding-right: 285px;
+}

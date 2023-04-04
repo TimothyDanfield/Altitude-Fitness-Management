@@ -52,6 +52,7 @@ function NavBar() {
 
       <Link to="/businessconsultation" className="navbar__item">CONSULTATION</Link>
       <Link to="/podcast" className="navbar__item">FITMOLIFE</Link>
+      {/* <Link to="/changerequest" className="navbar__item">ChangeRequest</Link> */}
 
       <div className='nav-dropdown'>
         <Link className="navbar__item" onMouseEnter={toggleAffiliationsDropDown} onMouseLeave={toggleAffiliationsDropDown}>
