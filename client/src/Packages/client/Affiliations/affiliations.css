@@ -1,12 +1,12 @@
 .vendors {
-font-size:xx-large ;
-color: #fefefe;
-text-align: center;
-  margin-bottom: 50px;
+  font-size: xx-large;
+  color: #fefefe;
+  text-align: center;
+  margin-top: 50px;
 }
 
 .affiliations {
-  background-color: #fefefe;
+  background-color: #443737;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -21,95 +21,100 @@ text-align: center;
 }
 
 .aff {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    background-color: #443737;
-    width: 107.6%;
-    height: 250px;
-    margin-bottom: 50px;
-    margin-top: 40px;
-    position: relative;
-  }
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color: #443737;
+  width: 107.6%;
+  height: 250px;
+  margin-bottom: 50px;
+  position: relative;
+}
 
-  
-  
-  
-  .banner1 img {
-    background-size: 85% auto;
-    width: 180px;
-    height: 95px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    margin: 5px;
-    filter: brightness(0) invert(1);
-  }
-  .banner2 img{
-    width: 180px;
-    height: 110px;
-    background-size: 75% auto;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    margin: 5px;
-    filter: brightness(0) invert(1);
-  }
-  .banner3 img{
-    width: 199px;
-    height: 128px;
-    margin: 5px;
-    filter: brightness(0) invert(1);
-  }
-  .banner4 img{
-    width: 180px;
-    height: 110px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    background-size: 100% auto;
-    margin: 5px;
-    filter: brightness(0) invert(1);
-  }
-  .banner5 img{
-    width: 190px;
-    height: 60px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    margin: 5px;
-    background-size: 85% auto;
-    filter: brightness(0) invert(1);
-  }
-  .banner6 img{
-    width: 230px;
-      height: 154px;
-      background-position: center;
-      background-repeat: no-repeat;
-      transition: transform 0.2s ease-in-out;
-      background-size: 125% auto;
-      margin: 5px;
-      filter: brightness(0) invert(1);
-  }
-  .banner7 img{
-    width: 180px;
-    height: 110px;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: transform 0.2s ease-in-out;
-    background-size: 85% auto;
-    margin: 5px;
-    filter: brightness(0) invert(1);
-  }
 
-  .getStartedLink {
-    position: absolute;
-    bottom: 0;
-    right: 77px;
-    margin: 10px;
-    
-  }
+
+
+.banner1 img {
+  background-size: 85% auto;
+  width: 180px;
+  height: 95px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.banner2 img {
+  width: 180px;
+  height: 110px;
+  background-size: 75% auto;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.banner3 img {
+  width: 199px;
+  height: 128px;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.banner4 img {
+  width: 180px;
+  height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  background-size: 100% auto;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.banner5 img {
+  width: 190px;
+  height: 60px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  margin: 5px;
+  background-size: 85% auto;
+  filter: brightness(0) invert(1);
+}
+
+.banner6 img {
+  width: 230px;
+  height: 154px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  background-size: 125% auto;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.banner7 img {
+  width: 180px;
+  height: 110px;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: transform 0.2s ease-in-out;
+  background-size: 85% auto;
+  margin: 5px;
+  filter: brightness(0) invert(1);
+}
+
+.getStartedLink {
+  position: absolute;
+  bottom: 0;
+  right: 77px;
+  margin: 10px;
+
+}

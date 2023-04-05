@@ -4,13 +4,13 @@ import './affiliations.css'
 const Affiliations = () => {
   return (
     <section className="affiliations">
-      <ul className="aff">
       <div className="vendors">
         <h1>
-          <span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Aff</span>
+          <span style={{ borderBottom: '1px solid white', fontSize: '3rem' }}>Aff</span>
           <span style={{ fontSize: '3rem' }}>iliations and Vendors</span>
         </h1>
       </div>
+      <ul className="aff">
         <li>
           <a href="https://www.ncsf.org/" target="_blank" rel="noopener noreferrer">
             <div className="banner1">
