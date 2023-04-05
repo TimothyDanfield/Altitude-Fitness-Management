@@ -60,7 +60,7 @@ const AllTeam = () => {
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/matt.png" alt="Mat" />
+              <img src="/Pictures/mattnew.png" alt="Mat" />
             </div>
             <h3>Matthew Wakumoto</h3>
             <p>Executive Manager of Media and Marketing Engagement</p>
@@ -106,7 +106,7 @@ const AllTeam = () => {
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/matt.png" alt="Nathan" />
+              <img src="/Pictures/Nathan.png" alt="Nathan" />
             </div>
             <h3>Nathan Grandinette</h3>
             <p>Web Developer</p>
@@ -129,7 +129,7 @@ const AllTeam = () => {
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/matt.png" alt="Josias" />
+              <img src="/Pictures/Josias.png" alt="Josias" />
             </div>
             <h3>Josias Guzman</h3>
             <p>Web Developer</p>
