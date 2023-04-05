@@ -152,7 +152,7 @@ const AllTeam = () => {
         <div className="column">
           <div className="card">
             <div className="img-container">
-              <img src="/Pictures/matt.png" alt="MaryKate" />
+              <img src="/Pictures/marykate.jpeg" alt="MaryKate" />
             </div>
             <h3>MaryKate Larson</h3>
             <p>Digital Marketing/Graphic Designer</p>
