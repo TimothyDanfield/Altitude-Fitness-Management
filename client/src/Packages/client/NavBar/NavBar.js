@@ -41,7 +41,7 @@ function NavBar() {
 
         <div className='nav-dropdown'>
           <div className="navbar__item" onMouseEnter={toggleOurDriveDropDown} onMouseLeave={toggleOurDriveDropDown}>
-            Our Drive
+            OUR DRIVE
           </div>
           <div className="nav-dropdown-content">
             <Link to="/allteam" className="nav-dropdown-item">Partners</Link>
