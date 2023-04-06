@@ -60,3 +60,15 @@
   width: 100%;
   margin-bottom: 20px;
 }
+
+.blogform {
+  display: inline-block;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+  width: 100%;
+  max-width: 400px;
+  padding: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}

@@ -57,7 +57,7 @@
   display: flex;
     position: absolute;
     top: 54px;
-    left: 47.5%;
+    left: 57.5%;
     transform: translateX(-50%);
 }
 
@@ -85,7 +85,7 @@
 .footer__link--items {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  align-items: center;
   margin: 16px;
   text-align: right;
   width: 144px;

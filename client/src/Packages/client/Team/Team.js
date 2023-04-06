@@ -63,7 +63,7 @@ const OurTeam = () => {
           <div className="column">
             <div className="team-card">
               <div className="img-container">
-                <img src="/Pictures/matt.png" alt="Mat" />
+                <img src="/Pictures/mattnew.png" alt="Mat" />
               </div>
               <h3>Matthew Wakumoto</h3>
               <p>Executive Manager of Media and Marketing Engagement</p>

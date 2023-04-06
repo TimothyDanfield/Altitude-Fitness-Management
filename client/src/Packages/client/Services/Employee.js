@@ -7,7 +7,7 @@ function Employee() {
       <div className="gymImg">
         <img src="/pictures/gym.photo.png" alt="" />
       </div>
-      <h1 ><span style={{borderBottom: '1px solid black'}}>Emp</span><span>olyee Services</span></h1>
+      <h1 ><span style={{borderBottom: '1px solid black'}}>Emp</span><span>loyee Services</span></h1>
       <p className="text">
         <b>
           Struggling to staff your gym? We offer both on-demand employees to help with custodial and administrative duties, as well as a professional recruiter who can handle all your hiring needs.{' '}
