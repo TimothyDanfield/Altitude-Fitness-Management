@@ -4,7 +4,7 @@ import './businessconsultation.css'
 const BusinessConsultation = () => {
   return (
     <div className="mainBsns reveal" id="consulting">
-      <h1><span style={{ borderBottom: '1px solid black' }}>Con</span><span>sulting</span></h1>
+      <h1 className="buscon"><span style={{ borderBottom: '1px solid black' }}>Con</span><span>sulting</span></h1>
       <div className="main_bsns_1">
 
         <div className="bsns_img--container_1">

@@ -37,10 +37,11 @@ const Footer = () => {
         <div className='footer__link--wrapper'>
         <div className='footer__link--items'>
             <h2>About us</h2>
-            <a href="/Terms.js" target="_blank" >Terms</a>
+            <a href="/Terms.html" target="_blank" >Terms</a>
             <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Altitude Shop</a>
             <a href="https://altitude-media-group.breezy.hr/" target="_blank" rel="noopener noreferrer">Location</a>
             <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Privacy policy</a>
+            <a href="https://altitude-media-group.breezy.hr/" target="_blank" rel="noopener noreferrer">Carrers</a>
             </div>
         
         <div className="footer__link--items">
