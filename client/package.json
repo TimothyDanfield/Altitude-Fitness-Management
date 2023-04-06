@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "react-hot-toast": "^2.4.0",
     "react-tooltip": "^5.10.4"
   }
 }
