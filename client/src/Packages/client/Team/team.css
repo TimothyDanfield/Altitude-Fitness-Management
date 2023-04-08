@@ -182,11 +182,16 @@
 }
 
 .team-button {
-  font-size: 1.3rem;
+  font-size: 1.8rem;
+  margin-top: 1rem;
   cursor: pointer;
   position: relative;
   background: rgb(214, 37, 37);
   padding: 20px 60px;
+  border-width: initial;
+  border-style: none;
+  border-color: initial;
+  border-image: initial;
   border-radius: 4px;
   transition: all 0.35s ease 0s;
   outline: none;

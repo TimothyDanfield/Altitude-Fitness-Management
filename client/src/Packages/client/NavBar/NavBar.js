@@ -33,9 +33,9 @@ function NavBar() {
           </Link>
           <div className="nav-dropdown-content">
             <Link to="/gymgrowth" className="nav-dropdown-item">Gym Growth</Link>
-            <Link to="/automation" className="nav-dropdown-item">Automation</Link>
-            <Link to="/employee" className="nav-dropdown-item">Employee</Link>
-            <Link to="/gymlaunch" className="nav-dropdown-item">Gym Launch</Link>
+            <Link to="/fittechsolutions" className="nav-dropdown-item">Fit Tech Solutions</Link>
+            <Link to="/staffaugmentation" className="nav-dropdown-item">Staffing Augmentation</Link>
+            <Link to="/gymlaunch" className="nav-dropdown-item">Facility Design and Launch</Link>
           </div>
         </div>
 

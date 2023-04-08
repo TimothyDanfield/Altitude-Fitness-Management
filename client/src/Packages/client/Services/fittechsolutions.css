@@ -1,0 +1,36 @@
+.block {
+  margin: 0 auto;
+  max-width: 800px;
+}
+
+.gymImg {
+  text-align: center;
+}
+
+.h1 {
+  font-size: 48px;
+  text-align: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.text {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+}
+
+ol {
+  font-size: 24px;
+  line-height: 1.5;
+  text-align: justify;
+  padding-left: 40px;
+}
+
+ol li {
+  margin-bottom: 20px;
+}
+
+br {
+  line-height: 2.5;
+}

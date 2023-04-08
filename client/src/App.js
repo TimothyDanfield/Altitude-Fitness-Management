@@ -13,12 +13,12 @@ import Footer from "./Packages/client/Footer/Footer";
 import Affiliations from "./Packages/client/Affiliations/Affiliations";
 import GymGrowth from "./Packages/client/Services/gymGrowth";
 import GetStarted from "./Packages/client/Affiliations/GetStarted";
-import Automation from "./Packages/client/Services/Automation";
-import Employee from "./Packages/client/Services/Employee";
+import FitTechSolutions from "./Packages/client/Services/FitTechSolutions";
+import StaffAugmentation from "./Packages/client/Services/StaffAugmentation";
 import GymLaunch from "./Packages/client/Services/GymLaunch";
 import AllTeam from "./Packages/client/Team/AllTeam";
 import ChangeRequest from "./Packages/client/ChangeRequest/ChangeRequest";
-
+import TermsOfService from "./Packages/client/Footer/TermsOfService";
 const App = () => {
   return (
     <div className="app">
@@ -36,14 +36,15 @@ const App = () => {
         <Route exact path="/marketing" element={<Marketing />} />
         <Route exact path="/services" element={<Services />} />
         <Route exact path="/gymgrowth" element={<GymGrowth />} />
-        <Route exact path="/automation" element={<Automation />} />
-        <Route exact path="/employee" element={<Employee />} />
+        <Route exact path="/staffaugmentation" element={<StaffAugmentation />} />
+        <Route exact path="/fittechsolutions" element={<FitTechSolutions />} />
         <Route exact path="/gymlaunch" element={<GymLaunch />} />
         <Route exact path="/team" element={<Team />} />
         <Route exact path="/allteam" element={<AllTeam />} />
         <Route exact path="/affiliations" element={<Affiliations />} />
         <Route exact path="/changerequest" element={<ChangeRequest />} />
         <Route exact path="/getstarted" element={<GetStarted />} />
+        <Route exact path="/termsofservice" element={<TermsOfService />} />
       </Routes>
       <Footer />
     </div>

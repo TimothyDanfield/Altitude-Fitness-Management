@@ -25,13 +25,15 @@ function GetStarted() {
   };
 
   return (
-    <div>
-      <h1>Get Started</h1>
-      {isSubmitted && <p>Submission successful!</p>}
-      <form onSubmit={handleSubmit}>
+    <div className="form-container">
+      <h1 className="form-title"><span style={{ borderBottom: "1px solid black" }}>Get</span>
+                <span> Started</span></h1>
+      {isSubmitted && <p className="form-message">Submission successful!</p>}
+      <form className="form" onSubmit={handleSubmit}>
         <label>
           First Name:
           <input
+          className="form-input"
             type="text"
             name="firstName"
             value={formData.firstName}
@@ -42,6 +44,7 @@ function GetStarted() {
         <label>
           Last Name:
           <input
+          className="form-input"
             type="text"
             name="lastName"
             value={formData.lastName}
@@ -52,6 +55,7 @@ function GetStarted() {
         <label>
           Email:
           <input
+          className="form-input"
             type="email"
             name="email"
             value={formData.email}
@@ -59,7 +63,7 @@ function GetStarted() {
           />
         </label>
         <br />
-        <button type="submit">Submit</button>
+        <button className="form-submit" type="submit">Submit</button>
       </form>
     </div>
   );

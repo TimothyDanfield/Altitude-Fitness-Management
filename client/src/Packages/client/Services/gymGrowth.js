@@ -82,7 +82,7 @@ function GymGrowth() {
             helping you achieve your goals and make a positive impact on your
             community.
           </p>
-          <p className="growth-text">
+          <p className=" ">
             Our team of experienced gym management professionals and marketing
             experts work with all clients to develop and curate a customized
             plan that meets your specific needs and preferences. With

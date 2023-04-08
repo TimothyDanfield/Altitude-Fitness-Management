@@ -36,8 +36,8 @@ const Footer = () => {
       <div className='box'>
         <h1>SIGN UP FOR ALTITUDE'S NEWSLETTER</h1>
         <form>
-          <input type='text' value={email} onChange={(e) => emailChange(e)} name='' placeholder='Enter email address...'></input>
-          <input type='submit' name='' onClick={subscribe} value='SUBSCRIBE'></input>
+          <input className='footer-input' type='text' value={email} onChange={(e) => emailChange(e)} name='' placeholder='Enter email address...'></input>
+          <input className='footer-input' type='submit' name='' onClick={subscribe} value='SUBSCRIBE'></input>
         </form>
       </div>
 
@@ -63,7 +63,7 @@ const Footer = () => {
       <div className='footer__link--wrapper'>
         <div className='footer__link--items'>
             <h2>About us</h2>
-            <a href="/Terms.html" target="_blank" >Terms</a>
+            <a href="/termsofservice" target="_blank" >Terms</a>
             <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Altitude Shop</a>
             <a href="https://altitude-media-group.breezy.hr/" target="_blank" rel="noopener noreferrer">Location</a>
             <a href="https://payhip.com/AltitudeMgmtIntl" target="_blank" rel="noopener noreferrer">Privacy policy</a>

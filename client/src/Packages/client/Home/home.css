@@ -172,7 +172,7 @@ border-radius: 4px;
 margin-top: 3rem;
 cursor: pointer;
 position: relative;
-transition: all 0.35s;
+transition:  all 0.35s ease 0s;
 outline: none;
 text-decoration: none;
 animation: fadeIn 1s ease-in-out 2s forwards;
