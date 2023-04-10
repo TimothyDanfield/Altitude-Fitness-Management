@@ -1,17 +1,31 @@
 .block {
   margin: 0 auto;
-  max-width: 800px;
+  
+}
+
+.fit-design-header {
+  text-align: center;
+  min-width: 300px;
+  width: 30%;
+  padding: 1%;
 }
 
 .fitImg{
   margin-top: 90px;
-  height: 700px;
+  height: 25%;
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat;
   top: 0px;
   left: 0px;
   width: 100%;
+}
+.fit-design-includes-heading {
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
 }
 
 .h1 {
@@ -21,7 +35,7 @@
   margin-bottom: 50px;
 }
 
-.text {
+.fit-design-body {
   font-size: 24px;
   line-height: 1.5;
   text-align: justify;
@@ -40,4 +54,34 @@ ol li {
 
 br {
   line-height: 2.5;
+}
+
+.automatedtext {
+  text-align: center;
+  width: 30%;
+font-size: 0.8rem;
+  margin: 15px;
+  padding: 15px;
+  border-right: 1px solid lightgray;
+}
+.automatedtext1 {
+  text-align: center;
+  width: 30%;
+font-size: 0.8rem;
+  margin: 15px;
+  padding: 15px;
+  border-right: 1px solid lightgray;
+}
+
+
+.text:nth-child(3) {
+  border-right: none;
+}
+
+.text:nth-child(6) {
+  border-right: none;
+}
+
+.text:nth-child(8) {
+  border-right: none;
 }
