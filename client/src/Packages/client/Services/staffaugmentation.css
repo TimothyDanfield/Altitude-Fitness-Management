@@ -5,7 +5,7 @@
   align-items: center;
   flex-wrap: wrap;
 }
-  
+
 .staff-augmentation-header-container {
   margin-top: 90px;
   height: 700px;
@@ -16,7 +16,80 @@
   left: 0px;
   width: 100%;
 }
-  
+
+@media screen and (min-width: 1145px) {
+  .augmentation-list-group {
+    height: 80em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .augmentation-list-item {
+    text-align: center;
+    height: fit-content;
+    min-width: 40%;
+    max-width: 250px;
+    padding: 5%;
+    border-right: 2px solid lightgray;
+  }
+
+  .augmentation-list-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .augmentation-list-item:nth-child(4) {
+    border-right: none;
+  }
+}
+
+@media screen and (max-width: 1144px) {
+  .augmentation-list-group {
+    height: 120em;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 5%;
+  }
+
+  .augmentation-list-item {
+    text-align: center;
+    height: 900px;
+    margin-bottom: 50px;
+    min-width: 40%;
+    max-width: 250px;
+    padding: 5%;
+    border-right: 2px solid lightgray;
+  }
+
+  .augmentation-list-item:nth-child(2) {
+    border-right: none;
+  }
+
+  .augmentation-list-item:nth-child(4) {
+    border-right: none;
+  }
+}
+
+.staff-augmentation-includes {
+  width: 100%;
+}
+
+.augmentation-list-group {
+  display: flex;
+  justify-content: center;
+}
+
+
+.img-fluid {
+  width: 100%;
+}
+
+.staffImg {
+  width: 100%;
+}
+
 .staff-header-content {
   display: flex;
   flex-direction: column;
@@ -27,15 +100,15 @@
   width: 100%;
 
 }
-  
- .staff-body {
+
+.staff-body {
   text-align: center;
   line-height: 40px;
   min-width: 300px;
-  width: 30%;
+  width: 100%;
   padding: 1%;
- }
-  
+}
+
 .staff-header {
   text-align: center;
   min-width: 300px;
@@ -61,17 +134,11 @@
   max-width: 75%;
 }
 
-.test {
-  height: 100%;
-  width: 100%;
-  backdrop-filter: blur(5px);
+ol li {
+  margin-bottom: 20px;
+  list-style: none;
 }
-  
-  ol li {
-    margin-bottom: 20px;
-  }
-  
-  br {
-    line-height: 2.5;
-  }
-  
+
+br {
+  line-height: 2.5;
+}

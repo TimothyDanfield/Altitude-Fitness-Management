@@ -5,9 +5,8 @@ function GymGrowth() {
   return (
     <div className="card-container" >
       <div className="gym-growth-header-container" style={{ backgroundImage: "url('/Pictures/gym.photo.png')" }}>
-        <div className='test'>
           <div className='gym-growth-header-content'>
-            <div className="gym-growth-header">
+            {/*<div className="gym-growth-header">
               <h1>
                 <span style={{ borderBottom: "1px solid black" }}>Gym</span>
                 <span> Growth Management</span>
@@ -23,9 +22,9 @@ function GymGrowth() {
                 development of a healthy culture and quality member experience
                 that minimizes turnover and builds a community.
               </strong>
-            </p>
+  </p>*/}
           </div>
-        </div>
+       
       </div>
 
 
