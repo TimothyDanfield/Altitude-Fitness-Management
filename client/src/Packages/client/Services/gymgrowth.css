@@ -16,11 +16,16 @@
   font-size: 1.2rem;
   line-height: 1.5;
   margin: 0 auto;
-  margin-top: 40px;
-  margin-bottom: 40px;
-  background-color: #f8f6f4;
-  padding: 50px;
-  max-width: 75%;
+  padding: 40px;
+}
+
+.line-item-logo {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: red;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
 }
 
 .gym-growth-includes-heading {
@@ -47,7 +52,7 @@
 }
 
 .growth-card {
-  min-width: 400px;
+  width: 50%;
   margin: 20px;
 }
 
@@ -98,19 +103,17 @@
 
 @media screen and (min-width: 1145px) {
   .growth-list {
+    min-height: fit-content;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
+    margin: 25px;
   }
 
-  .growth-list-item:nth-child(3) {
-    border-right: none;
-  }
-
-  .growth-list-item:nth-child(6) {
+  .growth-list-item:nth-child(4) {
     border-right: none;
   }
 
@@ -120,22 +123,24 @@
 
   .growth-list-item {
     text-align: center;
-    width: 30%;
-    height: 150px;
-    margin: 15px;
-    padding: 15px;
+    width: 25%;
+    height: 250px;
+    padding: 30px;
+    margin-bottom: 15px;
     border-right: 1px solid lightgray;
   }
 }
 
 @media screen and (max-width: 1144px) {
   .growth-list {
+    min-height: 1000px;
     list-style: none;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     align-items: center;
-    padding: 10%;
+    padding: 5%;
+    margin: 25px;
   }
 
   .growth-list-item:nth-child(2) {
@@ -157,9 +162,8 @@
   .growth-list-item {
     text-align: center;
     width: 40%;
-    height: 150px;
+    height: 250px;
     margin-bottom: 15px;
-    padding: 15px;
     border-right: 1px solid lightgray;
   }
 }
