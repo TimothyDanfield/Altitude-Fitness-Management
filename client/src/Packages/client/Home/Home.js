@@ -41,7 +41,6 @@ const Home = () => {
       
       <div className="layout">
         <Services />
-        <PodCast />
         <BusinessConsultation />
         <Team />
         <Affiliations />
