@@ -11,7 +11,7 @@ const OurTeam = () => {
 
 
         <div className="row_1">
-          <h1 ><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}> Team</span></h1>
+          <h1 ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}> Team</span></h1>
         </div>
         <div className="row_2">
           <div className="column">

@@ -131,7 +131,7 @@
   }
 }
 
-@media screen and (max-width: 1144px) {
+@media screen and (min-width: 771px) {
   .growth-list {
     min-height: 1000px;
     list-style: none;
@@ -162,8 +162,36 @@
   .growth-list-item {
     text-align: center;
     width: 40%;
-    height: 250px;
-    margin-bottom: 15px;
+    min-height: 250px;
+    padding: 5%;
+    margin-bottom: 25px;
     border-right: 1px solid lightgray;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .growth-list {
+    min-height: 1000px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 5%;
+    margin: 25px;
+  }
+
+  .growth-list-item:nth-child(8) {
+    border-bottom: none;
+  }
+
+  .growth-list-item {
+    text-align: center;
+    width: 40%;
+    min-height: 250px;
+    padding: 5%;
+    margin-bottom: 25px;
+    border-bottom: 1px solid lightgray;
   }
 }

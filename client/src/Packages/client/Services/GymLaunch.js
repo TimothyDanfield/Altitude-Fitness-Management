@@ -13,7 +13,7 @@ function GymLaunch() {
         <div>
           <div>
             <h1 class="gym-growth-includes-heading">
-              <span style={{ borderBottom: "1px solid black" }}>Gym</span>
+              <span style={{ borderBottom: "1px solid rgba(214, 37, 37, 255)" }}>Gym</span>
               <span>Launch Facility Consultation</span>
             </h1>
           </div>
