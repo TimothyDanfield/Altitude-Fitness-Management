@@ -17,21 +17,32 @@
   width: 100%;
 }
 
+.augmentation-item-logo {
+  margin: 0 auto;
+  margin-bottom: 25px;
+  background-color: red;
+  border-radius: 50%;
+  height: 150px;
+  width: 150px;
+}
+
 @media screen and (min-width: 1145px) {
   .augmentation-list-group {
-    height: 80em;
+    min-height: 80em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-content: space-between;
     padding: 5%;
   }
 
   .augmentation-list-item {
     text-align: center;
-    height: fit-content;
-    min-width: 40%;
-    max-width: 250px;
-    padding: 5%;
+    min-height: fit-content;
+    min-width: 35%;
+    max-width: 200px;
+    padding-left: 5%;
+    padding-right: 5%;
     border-right: 2px solid lightgray;
   }
 
@@ -46,7 +57,7 @@
 
 @media screen and (max-width: 1144px) {
   .augmentation-list-group {
-    height: 120em;
+    min-height: 120em;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -55,11 +66,12 @@
 
   .augmentation-list-item {
     text-align: center;
-    height: 900px;
-    margin-bottom: 50px;
+    min-height: 900px;
+    margin-bottom: 100px;
     min-width: 40%;
-    max-width: 250px;
-    padding: 5%;
+    max-width: 500px;
+    padding-left: 5%;
+    padding-right: 5%;
     border-right: 2px solid lightgray;
   }
 
@@ -129,9 +141,8 @@
   line-height: 1.5;
   margin: 0 auto;
   margin-top: 40px;
-  background-color: #f8f6f4;
   padding: 50px;
-  max-width: 75%;
+  max-width: 50%;
 }
 
 ol li {
