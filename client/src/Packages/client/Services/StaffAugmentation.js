@@ -4,9 +4,7 @@ import './staffaugmentation.css'
 function Employee() {
   return (
     <div className="card-container-staff">
-      <div className="gym-growth-header-container">
         <img src="/Pictures/staffaugmentation.jpg" alt="" className="img-fluid" />
-      </div>
       <div style={{ alignSelf: 'center', textAlign: 'center' }}>
         <div className='mb-4'>
           <h1 className="mb-4" ><span style={{ borderBottom: '1px solid black' }}>Sta</span><span>ff Augmentation</span></h1>
