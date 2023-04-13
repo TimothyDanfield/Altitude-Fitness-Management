@@ -4,7 +4,7 @@ import './staffaugmentation.css'
 function Employee() {
   return (
     <div className="card-container-staff">
-      <div className="staffImg">
+      <div className="gym-growth-header-container">
         <img src="/Pictures/staffaugmentation.jpg" alt="" className="img-fluid" />
       </div>
       <div style={{ alignSelf: 'center', textAlign: 'center' }}>

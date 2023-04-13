@@ -1,9 +1,15 @@
 .block {
   margin: 0 auto;
-  max-width: 800px;
 }
 
-.fitImg{
+.fit-design-header {
+  text-align: center;
+  min-width: 300px;
+  font-size: 2.5rem;
+  padding: 5%;
+}
+
+.fit-design-header-container {
   margin-top: 90px;
   height: 700px;
   background-position: center;
@@ -14,6 +20,13 @@
   width: 100%;
 }
 
+.fit-design-includes-heading {
+  text-align: center;
+  font-weight: bold;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
 .h1 {
   font-size: 48px;
   text-align: center;
@@ -21,23 +34,29 @@
   margin-bottom: 50px;
 }
 
-.text {
+.fit-design-body {
   font-size: 24px;
   line-height: 1.5;
   text-align: justify;
-}
-
-ol {
-  font-size: 24px;
-  line-height: 1.5;
-  text-align: justify;
-  padding-left: 40px;
-}
-
-ol li {
-  margin-bottom: 20px;
 }
 
 br {
   line-height: 2.5;
+}
+
+.automatedtext {
+  text-align: center;
+  font-size: 0.8rem;
+  margin: 15px;
+  padding: 15px;
+  border-right: 1px solid lightgray;
+}
+.fit-list-item{
+text-align: center;
+    width: 30%;
+    height: 150px;
+    margin: 15px;
+    padding: 15px;
+    border-right: 1px solid lightgray;
+    display: inline-block;
 }
