@@ -7,7 +7,7 @@ function Employee() {
         <img src="/Pictures/staffaugmentation.jpg" alt="" className="img-fluid" />
       <div style={{ alignSelf: 'center', textAlign: 'center' }}>
         <div className='mb-4'>
-          <h1 className="mb-4" ><span style={{ borderBottom: '1px solid black' }}>Sta</span><span>ff Augmentation</span></h1>
+          <h1 className="mb-4" ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)' }}>Sta</span><span>ff Augmentation</span></h1>
         </div>
         <div className="text-center">
           <p className="staff-body">

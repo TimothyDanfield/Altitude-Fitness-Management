@@ -26,7 +26,7 @@ function GetStarted() {
 
   return (
     <div className="form-container">
-      <h1 className="form-title"><span style={{ borderBottom: "1px solid black" }}>Get</span>
+      <h1 className="form-title"><span style={{ borderBottom: "1px solid rgba(214, 37, 37, 255)" }}>Get</span>
                 <span> Started</span></h1>
       {isSubmitted && <p className="form-message">Submission successful!</p>}
       <form className="form" onSubmit={handleSubmit}>

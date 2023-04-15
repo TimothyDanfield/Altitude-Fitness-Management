@@ -6,7 +6,7 @@ function Automation() {
     <div className="card-container">
       <div className="fit-design-header-container" style={{ backgroundImage: "url('/Pictures/fittech.png')" }}>
       </div>
-      <h1 className='fit-design-header' ><span style={{borderBottom: '1px solid black'}}>Fit</span><span>Tech Solutions</span></h1>
+      <h1 className='fit-design-header' ><span style={{borderBottom: '1px solid rgba(214, 37, 37, 255)'}}>Fit</span><span>Tech Solutions</span></h1>
       <br />
       <br />
      

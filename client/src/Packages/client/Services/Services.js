@@ -5,7 +5,7 @@ import './services.css'
 const Services = () => {
   return (
     <div className="services reveal" id="services">
-      <h1 ><span style={{ borderBottom: '1px solid black' }}>Our</span><span> Services</span></h1>
+      <h1 ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)' }}>Our</span><span> Services</span></h1>
       <div className="services__wrapper">
         <div className="services__card" onClick={() => window.location.href = "/gymgrowth"}>
           <h2>Gym Growth</h2>

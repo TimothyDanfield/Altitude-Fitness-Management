@@ -4,7 +4,7 @@ import './podcast.css'
 const PodCast = () => {
   return (
     <div className="mainPod reveal">
-        <h1 className='podcast-h1'><span style={{ borderBottom: '1px solid black', fontSize: '3rem' }}>Pod</span><span style={{ fontSize: '3rem' }}>cast</span></h1>
+        <h1 className='podcast-h1'><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)', fontSize: '3rem' }}>Edu</span><span style={{ fontSize: '3rem' }}>cation</span></h1>
         <div className="main__container_3">
           <div className="main__img--container_3">
             <div className="main__img--card_3" id="card-2">
