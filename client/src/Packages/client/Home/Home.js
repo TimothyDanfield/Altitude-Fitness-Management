@@ -7,6 +7,7 @@ import GetStartedBanner from "../GetStarted/GetStartedBanner";
 import "./home.css";
 import Team from "../Team/Team";
 import OurDrive from "../OurDrive/OurDrive";
+import UnderConstruction from "../UnderConstruction/UnderConstruction";
 
 const Home = () => {
   return (
@@ -50,6 +51,7 @@ const Home = () => {
       </div>
       <Blog />
       <GetStartedBanner />
+     
     </div>
   );
 };

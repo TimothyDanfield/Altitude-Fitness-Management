@@ -21,6 +21,7 @@ import ChangeRequest from "./Packages/client/ChangeRequest/ChangeRequest";
 import TermsOfService from "./Packages/client/Footer/TermsOfService";
 import GetStartedBanner from "./Packages/client/GetStarted/GetStartedBanner";
 import OurDrive from "./Packages/client/OurDrive/OurDrive";
+import UnderConstruction from "./Packages/client/UnderConstruction/UnderConstruction";
 const App = () => {
   return (
     <div className="app">
@@ -53,6 +54,7 @@ const App = () => {
         <Route exact path="/termsofservice" element={<TermsOfService />} />
         <Route exact path="/getstartedbanner" element={<GetStartedBanner />} />
         <Route exact path="/ourdrive" element={<OurDrive />} />
+        <Route exact path="/underconstruction" element={<UnderConstruction />} />
       </Routes>
       <Footer />
     </div>

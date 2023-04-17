@@ -1,0 +1,25 @@
+.under-construction-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f2f2f2;
+  }
+  
+  .under-construction-content {
+    text-align: center;
+  }
+  
+  .under-construction-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .under-construction-content p {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
+  }
+  
