@@ -40,9 +40,9 @@ function NavBar() {
         </div>
 
         <div className='nav-dropdown'>
-          <div className="navbar__item" onMouseEnter={toggleOurDriveDropDown} onMouseLeave={toggleOurDriveDropDown}>
+          <a className="navbar__item" onMouseEnter={toggleOurDriveDropDown} onMouseLeave={toggleOurDriveDropDown}>
             OUR DRIVE
-          </div>
+          </a>
           <div className="nav-dropdown-content">
             <Link to="/allteam" className="nav-dropdown-item">Partners</Link>
           </div>
