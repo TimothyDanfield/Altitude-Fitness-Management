@@ -1,5 +1,5 @@
 import React from "react";
-
+import './ourdrive.css'
 const OurDrive = () => {
   return (
     <div className="mainBsns reveal" id="about">
@@ -7,8 +7,8 @@ const OurDrive = () => {
       <div className="main__container_1">
         <div className="main__img--container_1">
           <div className="main__img--card_1">
-            <img className="bsns_img--card_1"
-              src=""
+            <img className="ourdriveimg"
+              src="/Pictures/ourdrive.jpg"
               alt="Business consulting services"
             />
           </div>
