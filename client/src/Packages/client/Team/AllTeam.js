@@ -63,7 +63,7 @@ const AllTeam = () => {
             <img src="/Pictures/mattnew.png" alt="Mat" />
           </div>
           <h3>Matthew Wakumoto</h3>
-          <p>Executive Manager of Media and Marketing Engagement</p>
+          <p>Executive Manager of Marketing Engagement</p>
           <div className="icons">
             <a href="https://www.instagram.com/altitudefitmgmt/" target="_blank" rel="noopener noreferrer">
               <FontAwesomeIcon icon={faInstagram} className='social__icon--link' />

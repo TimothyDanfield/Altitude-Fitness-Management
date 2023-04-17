@@ -1,5 +1,5 @@
 .ourdriveimg {
-    padding-right: 10rem;
+   
     padding-left: 69px;
     margin-left: 50px;
     width: 100%;
@@ -9,4 +9,8 @@
     flex-direction: column;
     justify-content: center;
     filter: blur(0.5px);
+}
+
+.ourdrivemain__img--card_1 {
+    padding-right: 9rem;
 }

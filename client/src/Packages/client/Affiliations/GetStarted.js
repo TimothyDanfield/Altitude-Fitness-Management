@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import './getstarted.css'
 
 
@@ -9,10 +9,13 @@ function GetStarted() {
     email: "",
   });
   const [isSubmitted, setIsSubmitted] = useState(false);
+  const [isReset, setIsReset] = useState(false);
 
   const handleSubmit = (event) => {
     event.preventDefault();
     setIsSubmitted(true);
+    setIsReset(true);
+    setTimeout(() => setIsReset(false), 0);
   };
 
   const handleChange = (event) => {
@@ -23,6 +26,18 @@ function GetStarted() {
       [name]: value,
     }));
   };
+
+  useEffect(() => {
+    if (isReset) {
+      setFormData({
+        firstName: "",
+        lastName: "",
+        email: "",
+      });
+      setIsReset(false);
+    }
+  }, [isReset]);
+  
 
   return (
     <div className="form-container">

@@ -10,6 +10,7 @@ function GetStartedBanner() {
   const handleFormSubmit = (e) => {
     e.preventDefault();
     setFormSubmitted(true);
+    window.location.reload();
   }
 
   const bannerStyle = {
