@@ -181,3 +181,42 @@ transition:  all 0.35s;
 color: azure;
 }
 
+
+/* For screens smaller than 600px */
+@media (max-width: 600px) {
+  .cols {
+    width: 80%;
+  }
+
+  .cols p {
+    font-size: 1.5rem;
+  }
+
+  .alt-text {
+    font-size: 3rem;
+    letter-spacing: 5px;
+  }
+
+  .blog-section {
+    flex-direction: column;
+  }
+
+  .blog-title {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .form-section {
+    width: 80%;
+    margin: 20px 0;
+  }
+
+  .navbar__btn {
+    padding-bottom: 20px;
+  }
+
+  .button {
+    font-size: 1.2rem;
+  }
+}
+
