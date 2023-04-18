@@ -105,7 +105,7 @@ const Footer = () => {
 
       <section className="footer_p_2">
         <p className="website__rights">
-          © 2023 Altitude Management International, a registered Altitudewebsite__rights
+          © 2023 Altitude Fitness Management Group, a registered trademark
         </p>
         <p className="website__rights">
           Enterprises Company. All rights reserved
