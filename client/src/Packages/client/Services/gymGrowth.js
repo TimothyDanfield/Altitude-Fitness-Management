@@ -82,7 +82,7 @@ function GymGrowth() {
           <h2>About Our Gym Growth Management Program</h2>
         </div>
         {/* this will begin section three */}
-        <div className="card-body">
+        <div className="gym-card-body">
           <p className="growth-text">
             Our Gym Growth Management program is designed to provide a
             comprehensive solution for gym owners who want to take their
