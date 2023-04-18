@@ -1,10 +1,12 @@
 import React from "react";
-import './services.css'
-
+import './services.css';
+import { useMediaQuery } from 'react-responsive';
 
 const Services = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
   return (
-    <div className="services reveal" id="services">
+    <div className={`services reveal ${isMobile ? 'mobile' : ''}`} id="services">
       <h1 ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)' }}>Our</span><span> Services</span></h1>
       <div className="services__wrapper">
         <div className="services__card" onClick={() => window.location.href = "/gymgrowth"}>

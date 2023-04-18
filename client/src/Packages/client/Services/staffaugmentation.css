@@ -103,6 +103,13 @@
   padding: 1%;
 }
 
+.staff-p {
+  font-size: 1.2rem;
+  line-height: 1.5;
+  margin: 0 auto;
+  padding: 40px;
+}
+
 .staff-header {
   text-align: center;
   min-width: 300px;

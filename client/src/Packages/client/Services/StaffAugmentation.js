@@ -11,13 +11,12 @@ function Employee() {
         </div>
         <div className="text-center">
           <p className="staff-body">
-            <p className="font-weight-bold mb-0">
-              Struggling to staff your gym? We offer both on-demand employees to help with custodial and administrative duties, as well as a professional recruiter who can handle all your hiring needs.
+            <p className="staff-p">
+            At Altitude Fitness Management Group, we believe that your employees are your most valuable asset. That's why we are committed to providing comprehensive employee services that help you attract, retain, and develop a high-performing team. Contact us to learn more about how we can help you achieve your employee management goals.
             </p>
             <br />
             <br />
             <p className='staff-includes-heading font-weight-bold'>
-              Staff Augmentation includes:
             </p>
             <br />
             <br />
@@ -51,7 +50,6 @@ function Employee() {
             <br />
             <br />
             <p className='staff-text'>
-              At Altitude Fitness Management Group, we believe that your employees are your most valuable asset. That's why we are committed to providing comprehensive employee services that help you attract, retain, and develop a high-performing team. Contact us to learn more about how we can help you achieve your employee management goals.
             </p>
           </p>
         </div>

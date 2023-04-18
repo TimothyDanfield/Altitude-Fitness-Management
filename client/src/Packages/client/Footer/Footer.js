@@ -1,6 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faInstagram, faYoutube, faLinkedin } from '@fortawesome/free-brands-svg-icons'
 import React, { useState } from 'react'
+import { MediaQuery } from 'react-responsive';
 import axios from '../../../utils/axiosConfig'
 import toast, { Toaster } from 'react-hot-toast'
 import './footer.css'
@@ -31,7 +32,7 @@ const Footer = () => {
   }
   
   return (
-
+    
     <div className='footer__container'>
       <div className='box'>
         <h1>SIGN UP FOR ALTITUDE'S NEWSLETTER</h1>
@@ -105,7 +106,7 @@ const Footer = () => {
 
       <section className="footer_p_2">
         <p className="website__rights">
-          © 2023 Altitude Management International, a registered Altitudewebsite__rights
+          © 2023 Altitude Management Group, a registered trademark
         </p>
         <p className="website__rights">
           Enterprises Company. All rights reserved

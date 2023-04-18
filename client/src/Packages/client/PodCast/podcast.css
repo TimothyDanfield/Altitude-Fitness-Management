@@ -4,24 +4,25 @@
   flex-wrap: wrap;
   background-color: #F0F5F9;
   height: fit-content;
-  padding: 50px;
-  width: 100%;
+  padding: 20px;
 }
 
 .main__container_3 {
   margin: 0 auto;
   display: flex;
-  flex-direction: row-reverse;
-  grid-template-columns: 1fr 1fr;
-  height: 90%;
-  width: 90%;
-  padding-top: 60px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  padding-top: 20px;
 }
 
 .main__content_3 {
-  text-align: left;
+  text-align: center;
   color: #111111;
   width: 100%;
+  margin-bottom: 20px;
 }
 
 .main__content_3 h1 {
@@ -35,16 +36,15 @@
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
   text-transform: uppercase;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   font-family: 'Albert Sans', sans-serif; 
   font-weight: bold;
-  align-items: center;
 }
 
 .main__content_3 h2 {
   font-size: 1.25rem;
   color: #111111;
-  align-items: center;
+  margin-bottom: 10px;
   font-weight: normal !important;
 }
 
@@ -53,21 +53,15 @@
   max-width: 90%;
   font-size: 1.2rem;
   line-height: 1.8;
-  background: #111111;
-  background-size: 100%;
-  -webkit-background-clip: text;
-  -moz-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  -moz-text-fill-color: transparent;
   font-family: 'Glacial Indifference', sans-serif;
-  align-items: center;
+  margin-bottom: 20px;
 }
 
 .main__btn_3 {
-  font-size: 1.8rem;
+  font-size: 1.5rem;
   background: #833ab4;
   background: rgba(214,37,37,255);
-  padding: 20px 60px;
+  padding: 20px 40px;
   border: none;
   border-radius: 4px;
   margin-top: 2rem;
@@ -104,8 +98,9 @@
 .main__img--card_3 {
   margin: 0px;
   max-height: 330px;
-  max-width: 700px;
+  max-width: 100%;
   border-radius: 4px;
+  margin-bottom: 20px;
 }
 
 .podcast-h1 {
@@ -117,7 +112,7 @@
   -moz-background-clip: text;
   -webkit-text-fill-color: transparent;
   -moz-text-fill-color: transparent;
-  font-family: 'Albert Sans', sans-serif; 
+  font-family: 'Albert Sans';
   font-weight: bold;
   padding: 50px;
 }
