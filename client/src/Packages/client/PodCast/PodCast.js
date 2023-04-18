@@ -8,7 +8,7 @@ const PodCast = () => {
         <div className="main__container_3">
           <div className="main__img--container_3">
             <div className="main__img--card_3" id="card-2">
-              <iframe src="https://www.youtube.com/embed/Kl-KAxy1WTU?autoplay=1&rel=0&fs=0&controls=0&disablekb=1&mute=1" width="560" height="315" title="A YouTube video" frameborder="0"></iframe>
+              
             </div>
           </div>
           <div className="main__content_3">
