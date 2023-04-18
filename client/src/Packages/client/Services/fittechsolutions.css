@@ -7,6 +7,7 @@
   min-width: 300px;
   font-size: 2.5rem;
   padding: 5%;
+  width: 100%;
 }
 
 .fit-design-header-container {
@@ -38,6 +39,11 @@
   font-size: 24px;
   line-height: 1.5;
   text-align: justify;
+}
+
+.fit-card-body {
+  display: block;
+  width: 50%;
 }
 
 br {
