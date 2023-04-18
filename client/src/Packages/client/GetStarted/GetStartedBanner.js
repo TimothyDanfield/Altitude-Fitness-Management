@@ -65,8 +65,8 @@ function GetStartedBanner() {
   return (
     <div className="banner-container">
       <div className="banner" onClick={() => setShowForm(true)} style={bannerStyle}>
-      <h1 style={{fontSize:'4rem', color: 'black'}}>Ready to Commit?</h1>
-
+    <h2>Ready To Commit?</h2>
+      
       </div>
       {showForm &&
         <form onSubmit={handleFormSubmit} style={formStyle}>
