@@ -16,8 +16,9 @@ function GetStartedBanner() {
   const bannerStyle = {
     backgroundColor: '#443737',
     color: 'white',
-    padding: '20px',
+    // padding: '20px',
     cursor: 'pointer',
+    textAlign: 'center'
   }
 
   const formStyle = {
@@ -64,9 +65,9 @@ function GetStartedBanner() {
 
   return (
     <div className="banner-container">
+    <div  style={{fontSize: '2rem'}}>Ready To Commit?</div>
       <div className="banner" onClick={() => setShowForm(true)} style={bannerStyle}>
-    <h2>Ready To Commit?</h2>
-      
+      Get Started
       </div>
       {showForm &&
         <form onSubmit={handleFormSubmit} style={formStyle}>
