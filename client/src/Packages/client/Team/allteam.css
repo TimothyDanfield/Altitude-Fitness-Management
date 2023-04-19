@@ -46,7 +46,17 @@
   width: 50%;
 }
 
+@media screen and (min-width: 992px) {
+  .card {
+    padding: 5em 1em;
+  }
 
+  .column {
+    flex: 0 0 33.33%;
+    max-width: 33.33%;
+    padding: 0 1em;
+  }
+}
 
 .card {
   box-shadow: 0 0 2.4em rgba(25, 0, 58, 0.1);
@@ -113,23 +123,10 @@
 }
 
 @media screen and (min-width: 768px) {
-  .row_1, .row_2 {
-    font-size: 2rem;
-    }
-    .row_1 h1, .row_2 h1 {
-    font-size: 2.5rem;
-    }
-    .column {
-    width: 100%;
-    max-width: 100%;
-    padding: 0;
-    }
-    .icons {
-    width: 100%;
-    justify-content: center;
-    }
-    }
-
+  /* section {
+        padding: 2em 7em;
+      } */
+}
 
 @media screen and (min-width: 992px) {
   .card {
