@@ -12,7 +12,7 @@ import UnderConstruction from "../UnderConstruction/UnderConstruction";
 const Home = () => {
   return (
     <div className="wrapper">
-      <div className="cols cols0">
+      <div className="cols cols0" style={{width: '100%'}}>
         <div className="video-text">
           <h1 className="home-header-text">
             <span className="alt-text">ALTITUDE</span>
