@@ -1,8 +1,13 @@
 import React from "react";
 import './ourdrive.css'
+import { useMediaQuery } from 'react-responsive';
+
+
 const OurDrive = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
   return (
-    <div className="mainBsns reveal" id="about">
+    <div className= {`mainBsns reveal ${isMobile ? 'mobile' : ''}`} id="about">
      <h1 ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}>Drive</span></h1>
       <div className="main__container_1">
         <div className="main__img--container_1">

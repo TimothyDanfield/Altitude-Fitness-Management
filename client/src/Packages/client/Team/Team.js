@@ -2,11 +2,17 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faTwitter, faInstagram, faYoutube, faLinkedin, } from '@fortawesome/free-brands-svg-icons'
+import { useMediaQuery } from 'react-responsive';
 import './team.css'
 
 const OurTeam = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+  const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1023px)' });
+  const isDesktop = useMediaQuery({ query: '(min-width: 1024px)' });
+
+
   return (
-    <div className='team-section'>
+    <div className={`team-section ${isMobile ? 'mobile' : ''} ${isTablet ? 'tablet' : ''} ${isDesktop ? 'desktop' : ''}`}>
       <div>
 
 

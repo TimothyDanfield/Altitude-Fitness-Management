@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import './navbar1.css';
 
@@ -21,6 +21,20 @@ function NavBar() {
   const toggleAffiliationsDropDown = () => {
     setShowAffiliationsDropDown(!showAffiliationsDropDown);
   };
+
+  const [width, setWidth] = useState(window.innerWidth);
+
+  useEffect(() => {
+    const handleResize = () => {
+      setWidth(window.innerWidth);
+    };
+
+    window.addEventListener('resize', handleResize);
+
+    return () => {
+      window.removeEventListener('resize', handleResize);
+    };
+  }, []);
 
   return (
       <div className='navbar'>

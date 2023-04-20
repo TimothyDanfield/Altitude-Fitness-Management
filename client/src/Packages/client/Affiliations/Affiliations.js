@@ -1,9 +1,15 @@
 import React from 'react'
 import './affiliations.css'
+import { useMediaQuery } from 'react-responsive';
 
 const Affiliations = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+  const isTablet = useMediaQuery({ query: '(min-width: 768px) and (max-width: 1023px)' });
+  const isDesktop = useMediaQuery({ query: '(min-width: 1024px)' });
+
+
   return (
-    <section className="affiliations">
+  <section className={`affiliations ${isMobile ? 'mobile' : ''} ${isTablet ? 'tablet' : ''} ${isDesktop ? 'desktop' : ''}`}>
       <div className="vendors">
         <h1>
           <span style={{ borderBottom: '1px solid white', fontSize: '3rem' }}>Aff</span>

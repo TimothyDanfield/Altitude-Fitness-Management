@@ -1,9 +1,13 @@
 import React from "react";
 import './businessconsultation.css'
+import { useMediaQuery } from 'react-responsive';
+
 
 const BusinessConsultation = () => {
+  const isMobile = useMediaQuery({ query: '(max-width: 767px)' });
+
   return (
-    <div className="mainBsns reveal" id="consulting">
+    <div className= {`mainBsns reveal ${isMobile ? 'mobile' : ''}`} id="consulting">
       <h1 className="buscon"><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)' }}>Con</span><span>sulting</span></h1>
       <div className="main_bsns_1">
 
