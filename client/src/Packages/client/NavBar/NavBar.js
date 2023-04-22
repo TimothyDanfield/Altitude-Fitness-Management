@@ -35,21 +35,23 @@ function NavBar() {
   }, []);
 
   return (
-    <div className="navbar">
-      <img
-        src="/Pictures/Altitude Fitness Management SD1 Logo.png"
-        className="navbar-logo"
-        alt="navlogo"
-      ></img>
-      <div className="container nav-container">
-        <input className="checkbox" type="checkbox" name="" id="" />
-        <div className="hamburger-lines">
-          <span className="line line1"></span>
-          <span className="line line2"></span>
-          <span className="line line3"></span>
-        </div>
-        
-        {width >= 768 ? (
+    <div>
+      { width <= 1140 ? (
+      <div className="navbar navbar1">
+        <img
+          src="/Pictures/Altitude Fitness Management SD1 Logo.png"
+          className="navbar-logo"
+          alt="navlogo"
+        ></img>
+        <div className="container nav-container">
+          <input className="checkbox" type="checkbox" name="" id="" />
+          <div className="hamburger-lines">
+            <span className="line line1"></span>
+            <span className="line line2"></span>
+            <span className="line line3"></span>
+          </div>
+
+
           <div className="menu-items">
             <ul>
               <li>
@@ -87,8 +89,17 @@ function NavBar() {
               </li>
             </ul>
           </div>
-        ) : (
-          <div>
+        </div>
+      </div>
+    ) : (
+      <div className="navbar">
+        <img
+          src="/Pictures/Altitude Fitness Management SD1 Logo.png"
+          className="navbar-logo"
+          alt="navlogo"
+        ></img>
+        <div className="container">
+          <div className="nav-container-large">
             <Link to="/" className="navbar__item">
               HOME
             </Link>
@@ -209,9 +220,10 @@ function NavBar() {
               </div>
             </div>
           </div>
-        )}
-      </div>
+        </div>
+      </div>)}
     </div>
+    
   );
 }
 

@@ -9,11 +9,16 @@ const Affiliations = () => {
 
 
   return (
-  <section className={`affiliations ${isMobile ? 'mobile' : ''} ${isTablet ? 'tablet' : ''} ${isDesktop ? 'desktop' : ''}`}>
+    <div className={`affiliations ${isMobile ? 'mobile' : ''} ${isTablet ? 'tablet' : ''} ${isDesktop ? 'desktop' : ''}`}>
       <div className="vendors">
-        <h1>
-          <span style={{ borderBottom: '1px solid white', fontSize: '3rem' }}>Aff</span>
-          <span style={{ fontSize: '3rem' }}>iliations and Vendors</span>
+        <h1 className='affiliations-title'>
+          <div>
+            <span style={{ borderBottom: '1px solid white', fontSize: '2.5rem' }}>Aff</span>
+            <span style={{ fontSize: '2.5rem' }}>iliations</span>
+          </div>
+          <div>
+            <span style={{ fontSize: '2.5rem' }}>&ensp;and&ensp;Vendors</span>
+          </div>
         </h1>
       </div>
       <ul className="aff">
@@ -74,7 +79,7 @@ const Affiliations = () => {
       </ul>
 
       <div className="logos"></div>
-    </section>
+    </div>
   )
 }
 

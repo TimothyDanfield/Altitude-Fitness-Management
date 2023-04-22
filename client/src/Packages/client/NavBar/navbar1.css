@@ -58,6 +58,9 @@
   position: relative;
 }
 
+.nav-hamburger {
+}
+
 .nav-dropdown-content {
   display: none;
   position: absolute;
@@ -81,6 +84,14 @@
 
 .nav-dropdown-item:hover {
   color: red;
+}
+
+.nav-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
 }
 
 .nav-dropdown:hover .nav-dropdown-content {
@@ -163,10 +174,38 @@ body {
     font-weight: bolder;
 }
 
+
+.nav-container-large {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 62px;
+}
+
+.navbar .nav-container-large li {
+  list-style: none;
+}
+
+.navbar .nav-container-large a {
+  text-decoration: none;
+  color: #0e2431;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.navbar .nav-container-large a:hover{
+    font-weight: bolder;
+}
+
 .nav-container {
   display: block;
   position: relative;
   height: 60px;
+}
+
+.navbar1 {
+  display: flex;
 }
 
 .nav-container .checkbox {
@@ -254,6 +293,11 @@ body {
 
 .nav-container input[type="checkbox"]:checked ~ .menu-items {
   transform: translateX(0);
+  height: fit-content;
+  padding: 25px;
+  margin: 0 auto;
+  width: 75%;
+  margin-right: -50px;
 }
 
 .nav-container input[type="checkbox"]:checked ~ .hamburger-lines .line1 {
