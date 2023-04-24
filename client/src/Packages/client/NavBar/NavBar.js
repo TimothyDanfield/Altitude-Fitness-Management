@@ -36,7 +36,7 @@ function NavBar() {
 
   return (
     <div>
-      { width <= 1140 ? (
+      { width <= 990? (
       <div className="navbar navbar1">
         <img
           src="/Pictures/Altitude Fitness Management SD1 Logo.png"

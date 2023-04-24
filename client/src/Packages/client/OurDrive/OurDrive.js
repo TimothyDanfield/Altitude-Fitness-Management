@@ -9,7 +9,7 @@ const OurDrive = () => {
   return (
     <div className= {`mainBsns reveal ${isMobile ? 'mobile' : ''}`} id="about">
      <h1 ><span style={{ borderBottom: '1px solid rgba(214, 37, 37, 255)', fontSize: '3rem' }}>Our</span><span style={{ fontSize: '3rem' }}>Drive</span></h1>
-      <div className="main__container_1">
+      <div className="ourdrivemain__container_1">
         <div className="main__img--container_1">
           <div className="ourdrivemain__img--card_1">
             <img className="ourdriveimg"

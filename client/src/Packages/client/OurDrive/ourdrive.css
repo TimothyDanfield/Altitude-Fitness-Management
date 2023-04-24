@@ -1,33 +1,53 @@
 .ourdriveimg {
-   
     padding-left: 69px;
     margin-left: 50px;
-    width: 100%;
+    width: 150%;
     height: 100%;
     border-radius: 4px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     filter: blur(0.5px);
-}
-
-.ourdrivemain__img--card_1 {
+  }
+  
+  .ourdrivemain__img--card_1 {
     padding-right: 9rem;
-}
-
-@media (max-width: 767px) {
+  }
+  
+  .ourdrivemain__container_1 {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    height: auto;
+    z-index: 1;
+    width: 100%;
+    padding-top: 60px;
+    background: #fefefe;
+    padding-bottom: 95px;
+  }
+  
+  @media screen and (min-width: 768px) {
     .ourdriveimg {
       padding-left: 0;
       margin-left: 0;
-      width: 100%;
-      height: auto;
+      width: auto;
+      height: 100%;
       border-radius: 4px;
       display: block;
       filter: blur(0.5px);
     }
   
     .ourdrivemain__img--card_1 {
-      padding-right: 0;
-      text-align: center;
+      padding-right: 9rem;
+    }
+  
+    .ourdrivemain__container_1 {
+      grid-template-columns: 1fr 1fr;
+      height: 90%;
+      padding-top: 60px;
+      padding-bottom: 95px;
     }
   }
+  
