@@ -42,6 +42,12 @@
     min-height: 250px;
     margin-bottom: 50px;
   }
+  .getStartedLink {
+    position: absolute;
+    bottom: 0;
+    right: 77px;
+    margin: 10px;
+  }
 }
 
 @media screen and (min-width: 740px) {
@@ -63,6 +69,12 @@
     width: 100%;
     min-height: 250px;
     margin-bottom: 50px;
+  }
+  .getStartedLink {
+    position: absolute;
+    bottom: 0;
+    right: 77px;
+    margin: 10px;
   }
 }
 
@@ -145,7 +157,7 @@
 .getStartedLink {
   position: absolute;
   bottom: 0;
-  right: 77px;
+  right: 145px;
   margin: 10px;
 
 }
