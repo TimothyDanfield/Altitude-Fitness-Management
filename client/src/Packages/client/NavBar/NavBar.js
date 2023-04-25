@@ -22,6 +22,8 @@ function NavBar() {
 
   const [width, setWidth] = useState(window.innerWidth);
 
+  
+
   useEffect(() => {
     const handleResize = () => {
       setWidth(window.innerWidth);
